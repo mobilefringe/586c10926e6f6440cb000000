@@ -2515,11 +2515,7 @@ display: block;
 .blog_body table{
     width:100% !important;
 }
-.feature_label{
-    display:none;
-}
-
-.feature_label_new {
+.feature_label, .long_feature_label {
     margin: 0px;
     color: white;
     padding: 17px 4% 0;
