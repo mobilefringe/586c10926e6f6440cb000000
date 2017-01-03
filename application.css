@@ -2492,13 +2492,13 @@ display: block;
     font-size:1.0em;
 }
 
-// .hour_box{
+.hour_box{
 //     background-color:#d2d2d2;
 //     position:relative;
 //     z-index: 999;
-//     font-family: Merriweather-Bold;
-//     font-size: 0.7em;
-// }
+    font-family: Merriweather-Bold;
+    font-size: 0.7em;
+}
 
 // .hour_info {
 //     color: #808080;
