@@ -2500,12 +2500,12 @@ display: block;
     font-size: 0.7em;
 }
 
-// .hour_info {
-//     color: #808080;
+.hour_info {
+    color: #808080;
 //     display: block;
 //     font-family: inherit;
 //     line-height: 25pt;
-// }
+}
 
 .blog_body{
     background: #fff;
