@@ -2249,8 +2249,9 @@ li {
     background:white;
 }
 #centre_logo {
- bottom: -5px;
- width: 180px;
+    top: 45px;
+//  bottom: -5px;
+    width: 180px;
 } 
 #site_nav ul.dropdown-menu {
   border-radius: 0;
@@ -2259,9 +2260,9 @@ li {
 }
 
 #site_nav {
- position: relative;
- height: 100px;
- padding-bottom: 40px;
+//  position: relative;
+ height: 140px;
+//  padding-bottom: 40px;
 }
 
 #site_nav hr {
