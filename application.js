@@ -59,9 +59,6 @@ function init() {
                 } else { // 200
                     $('#subForm').trigger('reset');
                     $("#success_subscribe").fadeIn();
-                    {% if site.subdomain == "aberdeen" %}
-                        submitToMailChimp();
-                    {% endif %}
                 }
         });
     });
