@@ -346,22 +346,32 @@
                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                                 <a class="site_map_submenu" href='/stores' target='_self'>Store Directory</a>
                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                <a class="site_map_submenu" href='/pages/quinte-new-stores' target='_self'>New Stores</a>
+                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                                 <a class="site_map_submenu" href='/map' target='_self'>Shopping Map</a>
+                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                <a class="site_map_submenu" href='/fashions/quinte-lookbook' target='_self'>Lookbook</a>
                             </div>
                             <div class="nav_sitemap_item">
-                                <span class="site_map_title">
-                                    <a href="/promotions">PROMOTIONS</a>  
-                                </span>                                 
+                                <span class="site_map_title">PROMOTIONS</span>      
+                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                <a class="site_map_submenu" href='/promotions' target='_self'>Promotions</a>
+                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                <a class="site_map_submenu" href='/pages/quinte-military-discount-program' target='_self'>Military Discount Program</a>
                             </div>
                             <div class="nav_sitemap_item">
-                                <span class="site_map_title">
-                                    <a href="/events">EVENTS</a>                                
-                                </span>
+                                <span class="site_map_title">EVENTS</span>      
+                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                <a class="site_map_submenu" href='/events' target='_self'>Events</a>
+                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                <a class="site_map_submenu" href='/pages/quinte-charities-non-profit-group' target='_self'>Charities & Non-Profit</a>
                             </div>
                             <div class="nav_sitemap_item">
-                                <span class="site_map_title">
-                                    <a href="/pages/tecumseh-customer-service">GUEST SERVICES</a>                                
-                                </span>
+                                <span class="site_map_title">GUEST SERVICES</span>      
+                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                <a class="site_map_submenu" href='/pages/quinte-guest-services' target='_self'>Guest Services</a>
+                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                <a class="site_map_submenu" href='/pages/quinte-gift-cards' target='_self'>Gift Cards</a>
                             </div>
                             <div class="nav_sitemap_item">
                                 <span class="site_map_title">
