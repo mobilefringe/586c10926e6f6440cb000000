@@ -2,7 +2,7 @@
     <ul class="slides" id="fashion_banner">            
         <script id="fashion_banner_template" type="x-tmpl-mustache/text">
             <li>
-                <img src="{{photo_url}}" alt="Banner Image"/>
+                <img src="//www.mallmaverick.com/{{photo_url}}" alt="Banner Image"/>
             </li>
         </script>                
     </ul>        
