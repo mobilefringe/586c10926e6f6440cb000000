@@ -10,17 +10,19 @@
         </script>
     </div>
 	<div class="line_break"></div>
-    <h1 class="page_title">Holiday Hours</h1>
-    <hr>
-    <div class="hour_table" id="holiday_hours_container">
-        <script id="holiday_hours_template" type="x-tmpl-mustache/text">
-            <div class="hour_row">  
-                {{#holiday_name}}
-                <span class="hour_time pull-right">{{h}}</span>
-                <span class="hour_date">{{holiday_name}}, <span class="lowercase">{{formatted_date}}</span></span>  
-                {{/holiday_name}}
-            </div>
-        </script>
+	<div id="holiday_hours">
+        <h1 class="page_title">Holiday Hours</h1>
+        <hr>
+        <div class="hour_table" id="holiday_hours_container">
+            <script id="holiday_hours_template" type="x-tmpl-mustache/text">
+                <div class="hour_row">  
+                    {{#holiday_name}}
+                    <span class="hour_time pull-right">{{h}}</span>
+                    <span class="hour_date">{{holiday_name}}, <span class="lowercase">{{formatted_date}}</span></span>  
+                    {{/holiday_name}}
+                </div>
+            </script>
+        </div>
     </div>
 </div>
 <div class="mobile_line_break"></div>
@@ -30,7 +32,13 @@
             init();
             var hours = getPropertyHours();
             renderHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours');
-            renderHours('#holiday_hours_container','#holiday_hours_template', hours, 'holiday_hours');
+            
+            if(hours.is_holiday = true) {
+                renderHours('#holiday_hours_container','#holiday_hours_template', hours, 'holiday_hours');    
+            } else {
+                $('#holiday_hours').hide();
+            }
+            
         }
         loadMallDataCached(renderAll); 
     });
