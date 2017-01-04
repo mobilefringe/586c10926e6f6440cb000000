@@ -2511,7 +2511,7 @@ display: block;
   font-family: Merriweather-regular;
 }
 
-#site_nav ul.dropdown-menu {
+#site_nav ul.dropdown-menu li {
   border-radius: 0;
   background-color: white;
   top: 43px;
@@ -2554,7 +2554,6 @@ display: block;
 
 .feature_label_new {
     margin: 0px;
-    
     padding: 17px 4% 0;
     // padding-bottom: 10px;
     position: absolute;
