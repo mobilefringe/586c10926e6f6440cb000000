@@ -8,8 +8,6 @@ function init() {
             window.location = "/stores/"+ $(this).val();    
         }
     });  
-    
-
 
     renderHomeHours();
     
@@ -64,7 +62,6 @@ function init() {
     });
 }
 
-      
 function renderGeneral(container, template, collection){
     var item_list = [];
     var item_rendered = [];
@@ -76,7 +73,6 @@ function renderGeneral(container, template, collection){
     });
     $(container).html(item_rendered.join(''));
 }
-
 function renderBanner(home_banner_template, home_banner, banners){
     var item_list = [];
     var item_rendered = [];
@@ -109,16 +105,12 @@ function renderBanner(home_banner_template, home_banner, banners){
     });
     $(home_banner).html(item_rendered.join(''));
 }
-
 function renderFeatureItems(feature_item, feature_item_template, feature_items){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(feature_item_template).html();
     Mustache.parse(template_html); 
     $.each(feature_items, function(key, val) {
-        // if (val.description.length  >= 100) {
-        //     val.description = val.description.substring(0,99) + "...";
-        // }
         if(val.url == "" || val.url === null){
            val.css = "style=cursor:default;";
            val.noLink = "return false";
@@ -128,7 +120,6 @@ function renderFeatureItems(feature_item, feature_item_template, feature_items){
     });
     $(feature_item).html(item_rendered.join(''));
 }
-
 function renderHours(container, template, collection, type){
     var item_list = [];
     var item_rendered = [];
@@ -173,7 +164,6 @@ function renderHours(container, template, collection, type){
         collection = [];
         collection = item_list;
     }
-    
     if (type == "holiday_hours") {
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == true) {
@@ -198,7 +188,6 @@ function renderHours(container, template, collection, type){
     });
     $(container).html(item_rendered.join(''));
 }
-
 function renderHomeHours(container, template, collection){
     var today_hours = getTodaysHours();
     var item_list = [];
@@ -224,7 +213,6 @@ function renderHomeHours(container, template, collection){
     });
     $('#home_hours_container').html(item_rendered.join(''));
 }
-
 function renderJobs(container, template, collection){
     var item_list = [];
     var item_rendered = [];
@@ -253,7 +241,6 @@ function renderJobs(container, template, collection){
     });
     $(container).html(item_rendered.join(''));
 }
-
 function renderJobDetails(container, template, collection){
     var item_list = [];
     var item_rendered = [];
@@ -268,9 +255,7 @@ function renderJobDetails(container, template, collection){
         }
         else{
             val.store_name = "Tecumseh Mall";
-            
         }
-        
         var show_date = moment(val.show_on_web_date);
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
@@ -285,7 +270,6 @@ function renderJobDetails(container, template, collection){
     });
     $(container).html(item_rendered.join(''));
 }
-
 function renderEvents(container, template, collection){
     var item_list = [];
     var item_rendered = [];
