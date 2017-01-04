@@ -2016,16 +2016,7 @@ td.stores_pin{
     }
 }
 
-@media (max-width: 800px)  and (-webkit-min-device-pixel-ratio:0) {
-    // .feature_label{
-    //     width: 92%;
-    // }
-}
-
 @media (max-width: 640px)  and (-webkit-min-device-pixel-ratio:0) {
-    // .feature_label{
-    //     width: 93%;
-    // }
     .mfp-ready, .mfp-wrap{
         display:none;
     }
