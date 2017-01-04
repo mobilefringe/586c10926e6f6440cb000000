@@ -124,7 +124,7 @@
                             <a href='/jobs' >CAREERS</a>
                         </li>         
                         <li class="mobile_menu_header" >
-                            <p>ABOUT US</p>
+                            <a>ABOUT US</a>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/pages/quinte-about-us'>About Us</a>
