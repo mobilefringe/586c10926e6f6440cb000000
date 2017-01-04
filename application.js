@@ -10,10 +10,10 @@ function init() {
     //     });
     //     $.cookie('visited', 'yes'); 
     // }
-    var date = new Date();
-    var minutes = 1440;
-    date.setTime(date.getTime() + (minutes * 60 * 1000));
-    $.cookie('visited', 'yes', { expires: date, path: '/' });
+    // var date = new Date();
+    // var minutes = 1440;
+    // date.setTime(date.getTime() + (minutes * 60 * 1000));
+    // $.cookie('visited', 'yes', { expires: date, path: '/' });
 
     //Store Drop-Down Select
     var header_stores = getStoresList();
