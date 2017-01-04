@@ -8,9 +8,9 @@
     </ul>        
 </div>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
-            <div class="addthis_native_toolbox"><p>Share this lookbook</p></div>
-            <!-- Go to www.addthis.com/dashboard to customize your tools -->
-            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5150b79556552030"></script>
+<div class="addthis_native_toolbox"><p>Share this lookbook</p></div>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5150b79556552030"></script>
 <script>
     $(document).ready(function(){
         function renderAll(){
