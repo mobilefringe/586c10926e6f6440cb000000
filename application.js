@@ -1,15 +1,15 @@
 function init() {
     //20 Vixc Pop-Up
-    var visited = $.cookie("visited");
-    if (visited === null) {
-        $.magnificPopup.open({
-          items: {
-            src: '<div class="mfp-with-anim homepop_up_container" style="height:100%;background:url(/system/popups/photos/000/000/122/original/PopUp-Holiday.jpg?1479152614)"><div class="pop_up_form_container"><div class="pop_up_form"><h4 class="popup_header1"></h4><form method="post" action ="http://mobilefringe.createsend.com/t/d/s/idjdui/"  onsubmit="return validate_pop_up()"><label for="name_pop_up">Name</label><input id="name_pop_up" type="text" name=cm-name><label for="email_pop_up">Email</label><input id="email_pop_up" type="text" name=cm-idjdui-idjdui><label for="postal_pop_up" >Postal Code</label><input id="postal_pop_up" type="text" name=cm-f-tyquu><label><input id="subscribe_newsletter_popup" type="checkbox">Subscribe to receive newsletters from Quinte Mall</label><br /> <input class="btn btn-success" value = "Submit" type="submit"></form></div></div></div>', 
-            type: 'inline'
-          }
-        });
-        $.cookie('visited', 'yes'); 
-    }
+    // var visited = $.cookie("visited");
+    // if (visited === null) {
+    //     $.magnificPopup.open({
+    //       items: {
+    //         src: '<div class="mfp-with-anim homepop_up_container" style="height:100%;background:url(/system/popups/photos/000/000/122/original/PopUp-Holiday.jpg?1479152614)"><div class="pop_up_form_container"><div class="pop_up_form"><h4 class="popup_header1"></h4><form method="post" action ="http://mobilefringe.createsend.com/t/d/s/idjdui/"  onsubmit="return validate_pop_up()"><label for="name_pop_up">Name</label><input id="name_pop_up" type="text" name=cm-name><label for="email_pop_up">Email</label><input id="email_pop_up" type="text" name=cm-idjdui-idjdui><label for="postal_pop_up" >Postal Code</label><input id="postal_pop_up" type="text" name=cm-f-tyquu><label><input id="subscribe_newsletter_popup" type="checkbox">Subscribe to receive newsletters from Quinte Mall</label><br /> <input class="btn btn-success" value = "Submit" type="submit"></form></div></div></div>', 
+    //         type: 'inline'
+    //       }
+    //     });
+    //     $.cookie('visited', 'yes'); 
+    // }
     var date = new Date();
     var minutes = 1440;
     date.setTime(date.getTime() + (minutes * 60 * 1000));
