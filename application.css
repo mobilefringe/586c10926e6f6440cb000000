@@ -1878,7 +1878,7 @@ td.stores_pin{
     .mobile_logo {
         position: absolute;
         left: 10px;
-        max-width: 50%;
+        max-width: 75%;
     }
     .feature_links {
         margin-left: 0;
