@@ -1361,7 +1361,7 @@ hr{
 /* *** MAP *** */
 .tooltip_phone_icon {
     margin-right: 5px;
-    color: #a6a6a6;
+    // color: #a6a6a6;
     font-size: 20px;
 }
 p.tooltip_phone {
