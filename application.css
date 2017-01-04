@@ -1359,6 +1359,9 @@ hr{
 
 
 /* *** MAP *** */
+.tooltip_name {
+    font-size: 18px;
+}
 .tooltip_phone_icon {
     margin-right: 5px;
     // color: #a6a6a6;
@@ -1366,6 +1369,9 @@ hr{
 }
 p.tooltip_phone {
     display: inline-block;
+}
+.tooltip_details {
+    font-size: 14px;
 }
 .map {
     position: relative;
