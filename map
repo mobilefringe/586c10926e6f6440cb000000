@@ -2,24 +2,8 @@
 	<h1 class="page_title">Store Map</h1>
 	<hr/>
     <div id="mapsvg_store_list"></div>     
-    
-	<!--<select class="mapper" id="store_select_container">-->
-	<!--    <script id="store_select_template" type="x-tmpl-mustache/text">-->
- <!--           <option value="{{x_coordinate}},{{y_coordinate}},{{id}}" data-value="{{name}}">{{name}}</option>-->
- <!--       </script>-->
-	<!--</select>-->
-	<!--<div id="parent_div">-->
-	<!--	<div id="zoom_container"  >-->
-	<!--		<img alt="Store Directory Map" id="map_image" src=""/>-->
-	<!--		<div class="landmarks" data-show-at-zoom="100" data-allow-drag="true"></div>-->
-	<!--	</div>-->
-	<!--</div>-->
 </div>
 <div class="mobile_line_break"></div>
-<!--<script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/jquery.js"></script>-->
-<!--<script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/raphael.js"></script>-->
-<!--<script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/jquery.mousewheel.js"></script> -->
-<!--<script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/005/107/original/mallmaverick_svgmap.js?1412885524"></script>-->
 <script>
     $(document).ready(function(){
         function renderAll(){
