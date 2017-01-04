@@ -31,6 +31,7 @@
         function renderAll(){
             init();
             var hours = getPropertyHours();
+            console.log(hours);
             renderHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours');
             
             if(hours.is_holiday = true) {
