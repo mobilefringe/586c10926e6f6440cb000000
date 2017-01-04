@@ -210,25 +210,25 @@
                         <button class="btn-nav" data-toggle="dropdown">ABOUT US</button>                                                     
                         <ul class="dropdown-menu" style="right:0px; left:auto;">                            
                             <li>
-                                <a class="nav_a" href='/pages/quinte-' target='_self'><span>About Us</span></a>                                
+                                <a class="nav_a" href='/pages/quinte-about-us' target='_self'><span>About Us</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/quinte-' target='_self'><span>Security</span></a>                                
+                                <a class="nav_a" href='/pages/quinte-security-services' target='_self'><span>Security</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/quinte-' target='_self'><span>Leasing</span></a> 
+                                <a class="nav_a" href='/pages/quinte-leasing' target='_self'><span>Leasing</span></a> 
                             </li>
                             <li>
                                 <a class="nav_a" href='/hours' target='_self'><span>Shopping Hours</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/quinte-' target='_self'><span>Tourism</span></a>                              
+                                <a class="nav_a" href='/pages/quinte-tourism' target='_self'><span>Tourism</span></a>                              
                             </li>
                             <li>
                                 <a class="nav_a" href='/pages/quinte-accessibility' target='_self'><span>Accessibility</span></a>                      
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/quinte-' target='_self'><span>Thinking Green</span></a>                      
+                                <a class="nav_a" href='/pages/quinte-thinking-green' target='_self'><span>Thinking Green</span></a>                      
                             </li>
                             <li>
                                 <a class="nav_a" href='/pages/quinte-contact-us' target='_self'><span>Contact Us</span></a>                            
