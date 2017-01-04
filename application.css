@@ -1196,7 +1196,7 @@ a.btn-prime {
 }
 .addthis_native_toolbox {
     display: inline-flex;
-    padding-top: 35px;
+    padding-top: 10px;
 }
 .addthis_native_toolbox p {
     font-size: 16pt;
