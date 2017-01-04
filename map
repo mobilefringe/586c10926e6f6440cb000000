@@ -16,7 +16,7 @@
             $.each(stores, function(key, val) {
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     obj = {};
-                    obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><div class='tooltip_phone_div'><i class='tooltip_phone_icon fa fa-phone' aria-hidden='true'></i><p class='tooltip_phone'>" + val.phone + "</p></div>"
+                    obj["tooltip"] = "<img class='tooltip_img' src=''/><label class='store_name_map'>" + val.name + "</label><div class='map_contact'><div class='map_contact_section'><img class='map_contact_phone_icon' src='{{2027 | get_image_url}}'><label class='map_contact_label'>" + val.phone + "</label><label class='map_label_right'>CLICK FOR MORE DETAILs</label></div></div>"
                     obj["attr"] = {}
                     obj["attr"]["href"] = "/stores/" + val.slug
                     regions[val.svgmap_region] = obj
@@ -27,3 +27,5 @@
         loadMallDataCached(renderAll);
     })
 </script>
+
+"<img class='tooltip_img' src='{{file.file_url}}'><img class='tooltip_img' src='{{store.store_front_url}}'/><label class='store_name_map'>" + val.name + "</label><div class='map_contact'><div class='map_contact_section'><img class='map_contact_phone_icon' src='{{2027 | get_image_url}}'><label class='map_contact_label'>" + val.phone + "</label><label class='map_label_right'>CLICK FOR MORE DETAILs</label></div></div>"
