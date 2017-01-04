@@ -1147,7 +1147,11 @@ a.btn-prime {
     box-shadow: none;
     overflow: hidden;
 }
-
+.fashion_flexslider .slides img { 
+    // width: auto;
+    // max-width: 100%;
+    // height: 446px;
+}
 .flex-control-nav.flex-control-paging {
     display: none;
 }
