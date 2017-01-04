@@ -1359,6 +1359,13 @@ hr{
 
 
 /* *** MAP *** */
+.tooltip_phone_icon {
+    margin-right: 5px;
+    color: #a6a6a6;
+}
+p.tooltip_phone {
+    display: inline-block;
+}
 .map {
     position: relative;
     top: 0;
