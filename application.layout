@@ -79,7 +79,7 @@
                     </button>
                     <ul class="dropdown-menu bottom">                                
                         <li class="mobile_menu_header" >
-                            <a>STORES</a>
+                            <p>STORES</p>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/stores'>Store Directory</a>
@@ -94,7 +94,7 @@
                             <a href='/fashions/qunite-lookbook'>Lookbook</a>
                         </li>
                         <li class="mobile_menu_header" >
-                            <a>PROMOTIONS</a>
+                            <p>PROMOTIONS</p>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/promotions'>Promotions</a>
@@ -103,7 +103,7 @@
                             <a href='/pages/quinte-military-discount-program'>Military Discount Program</a>
                         </li>
                         <li class="mobile_menu_header" >
-                            <a>EVENTS</a>
+                            <p>EVENTS</p>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/events'>Events</a>
@@ -112,38 +112,44 @@
                             <a href='/pages/quinte-charities-non-profit-groups'>Charities & Non-Profit</a>
                         </li>
                         <li class="mobile_menu_header" >
-                            <a>GUEST SERVICES</a>
+                            <p>GUEST SERVICES</p>
                         </li> 
                         <li class="mobile_menu_item">
                             <a href='/pages/quinte-guest-services'>Guest Services</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/pages/quinte-gift-cards'>Lookbook</a>
+                            <a href='/pages/quinte-gift-cards'>Gift Cards</a>
                         </li>
                         <li class="mobile_menu_header" >
                             <a href='/jobs' >CAREERS</a>
                         </li>         
                         <li class="mobile_menu_header" >
-                            <a href='' >ABOUT US</a>
+                            <p>ABOUT US</p>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/pages/quinte-about-us'>About Us</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/pages/quinte-security-services'>Security</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/pages/qunite-leasing'>Leasing</a>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/hours'>Shopping Hours</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/pages/tecumseh-specialty-leasing'>Leasing</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                            <a href='/pages/tecumseh-mall-info'>Mall Info</a>
+                            <a href='/pages/quinte-tourism'>Tourism</a>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/pages/tecumseh-accessibility'>Accessibility</a>
                         </li>        
                         <li class="mobile_menu_item">
+                            <a href='/pages/quinte-thinking-green'>Thinking Green</a>
+                        </li>
+                        <li class="mobile_menu_item">
                           <a href='/pages/tecumseh-contact-us'>Contact Us</a>
                         </li>
-                        <li class="mobile_menu_header" >
-                            <a href='/posts' >BLOG</a>
-                        </li> 
                     </ul>
                     <a id="mobile_logo" href="/">
                         <img class="mobile_logo" ALT="mobile_logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/103/original/QuinteMall_Logo.png?1437158680"/>
