@@ -27,6 +27,9 @@
                 if(slug === "quinte-contact-us") {
                     $("#contact_us").show();
                 }
+                if(slug === "quinte-military-discount-program") {
+                    $('.page_body h2').css("padding-bottom:" "0");
+                }
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#error_msg").fadeIn("fast");
