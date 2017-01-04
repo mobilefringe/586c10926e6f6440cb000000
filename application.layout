@@ -200,7 +200,7 @@
                             </li>
                         </ul>
                     </li>               
-                    <li class="dropdwon">                        
+                    <li class="dropdown">                        
                         <button class="btn-nav" data-toggle="dropdown">PROMOTIONS</button>
                         <ul class="dropdown-menu">
                             <li>
