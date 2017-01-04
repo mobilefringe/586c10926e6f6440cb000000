@@ -695,3 +695,25 @@ function load_map(reg, stores){
         zoomLimit: [0, 10],
     });
 }
+function load_store_map(reg, store_details){
+    this_region = {};
+    this_region = store_details.svgmap_region;
+    map = $('#mapsvg').mapSvg({
+        source: getSVGMapURL(),    // Path to SVG map
+        colors: {stroke: '#aaaaaa', selected: '#f57b2b', hover: "#f57b2b"},
+        disableAll: true,
+        // height: 450,
+        // width: 690,
+        regions: reg,
+        tooltipsMode: 'custom',
+        loadingText: "loading...",
+        zoom: true,
+        zoomButtons: {'show': true,'location': 'left' },
+        pan: true,
+        scroll: false,
+        cursor:'move',
+        responsive: true,
+        zoomLimit: [0, 10],
+    });
+    map.selectRegion(store_details.svgmap_region);
+}
