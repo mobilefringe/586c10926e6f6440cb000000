@@ -22,7 +22,6 @@
             $('.fashion_flexslider').flexslider({
                 animation: "slide",
             });
-            
         }
         loadMallDataCached(renderAll); 
     })
