@@ -1,15 +1,16 @@
-<div id="map_container">
-    <script id="map_template" type="x-tmpl-mustache/text">
-        <div class="row-fluid">
-            <div class="map">
-            	<div class="demo1">
-                    <img src="//www.mallmaverick.com/system/properties/maps/000/000/023/original/Untitled-1.jpg?1410294647" class="imgMap" id="map_image" />        		
-            		<div class="marker" id='scroll_to_marker' data-coords="{{map_x_coordinate}}, {{map_y_coordinate}}">{{name}}</div>	
-            	</div>
-            </div>
-        </div>
-    </script>
-</div>
+<div class="map_div" id="mapsvg"></div>
+<!--<div id="map_container">-->
+<!--    <script id="map_template" type="x-tmpl-mustache/text">-->
+<!--        <div class="row-fluid">-->
+<!--            <div class="map">-->
+<!--            	<div class="demo1">-->
+<!--                    <img src="//www.mallmaverick.com/system/properties/maps/000/000/023/original/Untitled-1.jpg?1410294647" class="imgMap" id="map_image" />        		-->
+<!--            		<div class="marker" id='scroll_to_marker' data-coords="{{map_x_coordinate}}, {{map_y_coordinate}}">{{name}}</div>	-->
+<!--            	</div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </script>-->
+<!--</div>-->
 <div class="line_break"></div>
 
 <div class="store_details">
@@ -106,7 +107,9 @@
         </div>
     </div>
 </div> 
-<script src="//s3.amazonaws.com/kodekloud/sites/5841df6b6e6f640488010000/text/javascript/1479491696000/craftmap.js"></script>
+<!--<script src="//s3.amazonaws.com/kodekloud/sites/5841df6b6e6f640488010000/text/javascript/1479491696000/craftmap.js"></script>-->
+
+<script src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/005/107/original/mallmaverick_svgmap.js?1412885524"></script>
 <script>
     $(document).ready(function(){
         function renderAll(){
@@ -154,18 +157,70 @@
                 $('#employment').hide();
             }
 
-            var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
-    		$('.demo1').craftmap({
-                image: {
-        			width: 840,
-    				height: 700,
-    				name: 'imgMap'
-    			},
-    			map: {
-    				position: dimension
-    			}
-    		});
-          	$("#scroll_to_marker").click();
+            region = {};
+            var stores = getStoresList();
+            $.each(stores, function(key, val) {
+                if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
+                    obj = {};
+                    obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p></div>"
+                    obj["attr"] = {}
+                    obj["attr"]["href"] = "/stores/" + val.slug
+                    region[val.svgmap_region] = obj
+                }
+            });
+            load_map(region, store_details);
+            drop_pin(map, region);
+            
+    //         var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
+    // 		$('.demo1').craftmap({
+    //             image: {
+    //     			width: 840,
+    // 				height: 700,
+    // 				name: 'imgMap'
+    // 			},
+    // 			map: {
+    // 				position: dimension
+    // 			}
+    // 		});
+    //       	$("#scroll_to_marker").click();
+        }
+        
+        function load_map(reg, store_details){
+            this_region = {};
+            this_region = store_details.svgmap_region;
+            map = $('#mapsvg').mapSvg({
+                source: getSVGMapURL(),    // Path to SVG map
+                colors: {stroke: '#aaaaaa', selected: '#f57b2b', hover: "#f57b2b"},
+                disableAll: true,
+                // height: 450,
+                // width: 690,
+                regions: reg,
+                tooltipsMode: 'custom',
+                loadingText: "loading...",
+                zoom: true,
+                zoomButtons: {'show': true,'location': 'left' },
+                pan: true,
+                scroll: false,
+                cursor:'move',
+                responsive: true,
+                zoomLimit: [0, 10],
+            });
+            map.selectRegion(store_details.svgmap_region);
+            drop_pin(store_details.svgmap_region);
+        }
+        
+        function drop_pin(id){
+            map.marksHide();
+            var coords = map.get_coords(id);
+            var height = parseInt(coords["height"]);
+            var width = parseInt(coords["width"]);
+            var x_offset = (parseInt(width) / 2);
+            var y_offset = (parseInt(height) /2);
+            map.setMarks([{ xy: [coords["x"] - 22 + x_offset, coords["y"] - 55 + y_offset],
+                attrs: {
+                    src:  '//mallmaverick.cdn.speedyrails.net/system/sites/map_markers/000/000/027/original/map_marker.png?1417461836'
+                }
+            }]);
         }
         loadMallDataCached(renderAll); 
     })
