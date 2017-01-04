@@ -197,7 +197,7 @@ function renderHours(container, template, collection, type){
         item_rendered.push(rendered);
     });
     // $(container).show();
-    $(container).html(item_rendered.join(''));
+    // $(container).html(item_rendered.join(''));
 }
 
 function renderHomeHours(container, template, collection){
