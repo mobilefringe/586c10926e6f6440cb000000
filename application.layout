@@ -160,24 +160,46 @@
                                 <a class="nav_a" href='/stores' target='_self'><span>Store Directory</span></a>                                
                             </li>
                             <li>
+                                <a class="nav_a" href='/pages/quinte-new-stores' target='_self'><span>New Stores</span></a>
+                            </li>
+                            <li>
                                 <a class="nav_a" href='/map' target='_self'><span>Shopping Map</span></a>                                
+                            </li>
+                            <li>
+                                <a class="nav_a" href='/pages/quinte-lookbook' target='_self'><span>Lookbook</span></a>                                
                             </li>
                         </ul>
                     </li>               
-                    <li>                        
-                        <button class="btn-nav" onclick="window.location.href='/promotions'">PROMOTIONS</button>
+                    <li class="dropdwon">                        
+                        <button class="btn-nav" data-toggle="dropdown">PROMOTIONS</button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="nav_a" href='/promotions' target='_self'><span>Promotions</span></a>
+                            </li>
+                            <li>
+                                <a class="nav_a" href='/pages/quinte-military-discount-program' target='_self'><span>Military Discount Program</span></a>
+                            </li>    
+                        </ul>
                     </li>
-                    <li>                        
-                        <button class="btn-nav" onclick="window.location.href='/events'">EVENTS</button>
+                    <li class="dropdown">                        
+                        <button class="btn-nav" data-toggle="dropdown">EVENTS</button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="nav_a" href='/events' target='_self'><span>Events</span></a>
+                            </li>
+                            <li>
+                                <a class="nav_a" href='/pages/quinte-charities-non-profit-group' target='_self'><span>Charities & Non-Profit</span></a>
+                            </li>    
+                        </ul>
                     </li>
                     <li class="dropdown">                        
                         <button class="btn-nav" data-toggle="dropdown">GUEST SERVICES</button>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class="nav_a" href='/pages/quinte-guest-services' target='_self'><span>Guest Services</span></a>                                
+                                <a class="nav_a" href='/pages/quinte-guest-services' target='_self'><span>Guest Services</span></a>
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/quinte-gift-cards' target='_self'><span>Gift Cards</span></a>                                
+                                <a class="nav_a" href='/pages/quinte-gift-cards' target='_self'><span>Gift Cards</span></a>
                             </li>    
                         </ul>
                     </li>            
