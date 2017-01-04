@@ -353,7 +353,6 @@ function renderEventDetails(container, template, collection){
     });
     $(container).html(item_rendered.join(''));
 }
-
 function renderPromotions(container, template, collection){
     var item_list = [];
     var item_rendered = [];
@@ -370,7 +369,6 @@ function renderPromotions(container, template, collection){
             val.store_name = "Tecumseh Mall";
             // val.image_url = "";
         }
-        
         if(val.promo_image_url_abs.indexOf('missing.png') > 0){
             // val.promo_image_url_abs  = "//www.mallmaverick.com/system/sites/logo_images/000/000/028/original/aberdeen.jpg?1393004108";
         }
@@ -390,7 +388,6 @@ function renderPromotions(container, template, collection){
     });
     $(container).html(item_rendered.join(''));
 }
-
 function renderPromoDetails(container, template, collection){
     var item_list = [];
     var item_rendered = [];
@@ -446,7 +443,6 @@ function renderStoreList(container, template, collection, type){
                 val.alt_store_front_url = getImageURL(val.store_front_url);    
             }
         }
-        //var categories = getStoreCategories();
         var current_initial = val.name[0];
         val.cat_list = val.categories.join(',')
         if(store_initial.toLowerCase() == current_initial.toLowerCase()){
@@ -491,7 +487,6 @@ function renderStoreList(container, template, collection, type){
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
-
 function renderStoreDetails(container, template, collection, slug){
     var item_list = [];
     var item_rendered = [];
@@ -521,28 +516,28 @@ function renderStoreDetails(container, template, collection, slug){
             val.phone_show = "display:none";
         }
         
-        if (val.twitter != null && val.twitter.length > 0){
-            val.twitter_show = "display:inline-block";
-        }
-        else{
-            val.twitter_show = "display:none";
-        }
+        // if (val.twitter != null && val.twitter.length > 0){
+        //     val.twitter_show = "display:inline-block";
+        // }
+        // else{
+        //     val.twitter_show = "display:none";
+        // }
         
-        if (val.twitter_show == "display:none" && val.phone_show == "display:none" ){
-            val.show_line = "display:none";
-        }
-        else{
-            val.show_line = "display:block";
-        }
-        if((val.twitter == null || val.twitter == "") && (val.facebook == "" || val.facebook == null)){
-            val.hide_social = "display:none;";
-        }
-        if (val.facebook != null && val.facebook.length > 0){
-            val.facebook_show = "display:inline-block";
-        }
-        else{
-            val.facebook_show = "display:none";
-        }
+        // if (val.twitter_show == "display:none" && val.phone_show == "display:none" ){
+        //     val.show_line = "display:none";
+        // }
+        // else{
+        //     val.show_line = "display:block";
+        // }
+        // if((val.twitter == null || val.twitter == "") && (val.facebook == "" || val.facebook == null)){
+        //     val.hide_social = "display:none;";
+        // }
+        // if (val.facebook != null && val.facebook.length > 0){
+        //     val.facebook_show = "display:inline-block";
+        // }
+        // else{
+        //     val.facebook_show = "display:none";
+        // }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
