@@ -2535,6 +2535,7 @@ display: block;
     bottom: 0px;
     // padding-bottom: 10px;
     opacity: 0.9;
+    text-transform: uppercase;
 }
 .overlay_text{
     color: #fff;
