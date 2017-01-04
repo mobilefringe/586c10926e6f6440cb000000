@@ -1173,6 +1173,9 @@ a.btn-prime {
     margin-right: -15px;
 }
 /* *** FASHION PAGE *** */
+.body_content {
+    text-align: center;
+}
 .fashion_flexslider {
     height: auto;
     border:none;
