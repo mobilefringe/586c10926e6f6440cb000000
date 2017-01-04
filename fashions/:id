@@ -2,11 +2,7 @@
     <ul class="slides" id="fashion_banner">            
         <script id="fashion_banner_template" type="x-tmpl-mustache/text">
             <li>
-                {{#url}}
-                <a class="banner_image_li" href="{{url}}" >
-                {{/url}}
-                    <img src="{{image_url}}" alt="Banner Image"/>
-                </a>
+                <img src="{{photo_url}}" alt="Banner Image"/>
             </li>
         </script>                
     </ul>        
