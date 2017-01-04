@@ -1,5 +1,8 @@
 <div>
 	<h1 class="page_title">Store Map</h1>
+	<hr/>
+    <div id="mapsvg_store_list"></div>     
+    
 	<!--<select class="mapper" id="store_select_container">-->
 	<!--    <script id="store_select_template" type="x-tmpl-mustache/text">-->
  <!--           <option value="{{x_coordinate}},{{y_coordinate}},{{id}}" data-value="{{name}}">{{name}}</option>-->
@@ -11,39 +14,15 @@
 	<!--		<div class="landmarks" data-show-at-zoom="100" data-allow-drag="true"></div>-->
 	<!--	</div>-->
 	<!--</div>-->
-	
-	<div id="mapsvg_store_list"></div> 
 </div>
 <div class="mobile_line_break"></div>
 <script>
     $(document).ready(function(){
         function renderAll(){
-            init();
             var stores = getStoresList();
-        //     renderStoreList('#store_select_container','#store_select_template', stores, "stores");
-        //     $(".mapper").prepend("<option selected>Select a Store</option>");
-
+            console.log(stores);
             
-        //     $("#map_image").attr("src", getPNGMapURL())
-        // 		$('#map_image').smoothZoom({
-        // 		    width: 754,
-        //             height: 500,
-        // 		    initial_ZOOM: 0,
-        // 			zoom_MIN: 0,
-        // 			zoom_MAX: 250,
-        // 			responsive: true,
-        // 		    responsive_maintain_ratio: true,
-        // 			zoom_BUTTONS_SHOW : 'YES',
-        // 			pan_BUTTONS_SHOW : 'NO',
-        // 			pan_LIMIT_BOUNDARY : 'NO',
-        // 			button_SIZE: 34,
-        // 			button_ALIGN: "top right",
-        // 			zoom_OUT_TO_FIT: "NO",
-        // 			container: 'zoom_container'
-        // 		});
-        // 	show_png_pin(".mapper", "#map_image");
-        	
-        	regions = {};
+            regions = {};
             var stores = getStoresList();
             $.each(stores, function(key, val) {
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
@@ -55,17 +34,19 @@
                 }
             });
             load_map(regions, stores);
+        }
+
             
-            function load_map(reg, store_details){
+            function load_map(regions, stores){
                 this_region = {};
-                this_region = store_details.svgmap_region;
+                this_region = stores.svgmap_region;
                 map = $('#mapsvg').mapSvg({
                     source: getSVGMapURL(),    // Path to SVG map
                     colors: {stroke: '#aaaaaa', selected: '#f57b2b', hover: "#f57b2b"},
                     disableAll: true,
                     // height: 450,
                     // width: 690,
-                    regions: reg,
+                    regions: regions,
                     tooltipsMode: 'custom',
                     loadingText: "loading...",
                     zoom: true,
@@ -76,7 +57,7 @@
                     responsive: true,
                     zoomLimit: [0, 10],
                 });
-                map.selectRegion(store_details.svgmap_region);
+                map.selectRegion(stores.svgmap_region);
             }
         }
         loadMallDataCached(renderAll);
