@@ -15,9 +15,9 @@
             console.log(fashion);
             renderFashion("#fashion_banner", "#fashion_banner_template", fashion);
             
-            // $('.fashion_flexslider').flexslider({
-            //     animation: "slide",
-            // });
+            $('.fashion_flexslider').flexslider({
+                animation: "slide",
+            });
             
         }
         loadMallDataCached(renderAll); 
