@@ -1,16 +1,4 @@
 <div class="map_div" id="mapsvg"></div>
-<!--<div id="map_container">-->
-<!--    <script id="map_template" type="x-tmpl-mustache/text">-->
-<!--        <div class="row-fluid">-->
-<!--            <div class="map">-->
-<!--            	<div class="demo1">-->
-<!--                    <img src="//www.mallmaverick.com/system/properties/maps/000/000/023/original/Untitled-1.jpg?1410294647" class="imgMap" id="map_image" />        		-->
-<!--            		<div class="marker" id='scroll_to_marker' data-coords="{{map_x_coordinate}}, {{map_y_coordinate}}">{{name}}</div>	-->
-<!--            	</div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </script>-->
-<!--</div>-->
 <div class="line_break"></div>
 
 <div class="store_details">
@@ -44,7 +32,7 @@
 
     <a id="promo"></a>
     <div id="promotions">
-        <h1>STORE PROMOTIONS</h1>
+        <h1>Store Promotions</h1>
         <hr>
         <div class="store_promo" id="promos_container">
             <script id="promos_template" type="x-tmpl-mustache/text">
