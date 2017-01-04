@@ -79,7 +79,7 @@
                     </button>
                     <ul class="dropdown-menu bottom">                                
                         <li class="mobile_menu_header" >
-                            <p>STORES</p>
+                            <a>STORES</a>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/stores'>Store Directory</a>
@@ -94,7 +94,7 @@
                             <a href='/fashions/qunite-lookbook'>Lookbook</a>
                         </li>
                         <li class="mobile_menu_header" >
-                            <p>PROMOTIONS</p>
+                            <a>PROMOTIONS</a>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/promotions'>Promotions</a>
@@ -103,7 +103,7 @@
                             <a href='/pages/quinte-military-discount-program'>Military Discount Program</a>
                         </li>
                         <li class="mobile_menu_header" >
-                            <p>EVENTS</p>
+                            <a>EVENTS</a>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/events'>Events</a>
@@ -112,7 +112,7 @@
                             <a href='/pages/quinte-charities-non-profit-groups'>Charities & Non-Profit</a>
                         </li>
                         <li class="mobile_menu_header" >
-                            <p>GUEST SERVICES</p>
+                            <a>GUEST SERVICES</a>
                         </li> 
                         <li class="mobile_menu_item">
                             <a href='/pages/quinte-guest-services'>Guest Services</a>
