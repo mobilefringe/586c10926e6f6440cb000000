@@ -79,23 +79,47 @@
                     </button>
                     <ul class="dropdown-menu bottom">                                
                         <li class="mobile_menu_header" >
-                            <a href='' >STORES</a>
+                            <a>STORES</a>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/stores'>Store Directory</a>
                         </li>
                         <li class="mobile_menu_item">
+                            <a href='/pages/quinte-new-stores'>New Stores</a>
+                        </li>
+                        <li class="mobile_menu_item">
                             <a href='/map'>Shopping Map</a>
                         </li>
-                        <li class="mobile_menu_header" >
-                            <a href='/promotions' >PROMOTIONS</a>
+                        <li class="mobile_menu_item">
+                            <a href='/fashions/qunite-lookbook'>Lookbook</a>
                         </li>
                         <li class="mobile_menu_header" >
-                            <a href='/events' >EVENTS</a>
+                            <a>PROMOTIONS</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/promotions'>Promotions</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/pages/quinte-military-discount-program'>Military Discount Program</a>
                         </li>
                         <li class="mobile_menu_header" >
-                            <a href='/pages/tecumseh-customer-service' >GUEST SERVICES</a>
-                        </li>      
+                            <a>EVENTS</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/events'>Events</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/pages/quinte-charities-non-profit-groups'>Charities & Non-Profit</a>
+                        </li>
+                        <li class="mobile_menu_header" >
+                            <a>GUEST SERVICES</a>
+                        </li> 
+                        <li class="mobile_menu_item">
+                            <a href='/pages/quinte-guest-services'>Guest Services</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/pages/quinte-gift-cards'>Lookbook</a>
+                        </li>
                         <li class="mobile_menu_header" >
                             <a href='/jobs' >CAREERS</a>
                         </li>         
