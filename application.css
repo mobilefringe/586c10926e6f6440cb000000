@@ -1545,7 +1545,9 @@ td.stores_pin{
     font-weight: bold;
     line-height: 25px;
 }
-
+.page_body h2+img {
+    padding-bottom: 0;
+}
 .leasing_page h3{
     font-size:1.6em;
 }
