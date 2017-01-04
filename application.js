@@ -192,11 +192,12 @@ function renderHours(container, template, collection, type){
         collection = [];
         collection = item_list;
     }
-    $.each( collection , function( key, val ) {
-        var rendered = Mustache.render(template_html,val);
-        item_rendered.push(rendered);
+    $.each(collection, function(key, val) {
+        if(collection.length > 0 ){
+            var rendered = Mustache.render(template_html,val);
+            item_rendered.push(rendered);    
+        }
     });
-    // $(container).show();
     $(container).html(item_rendered.join(''));
 }
 
