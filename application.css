@@ -1126,7 +1126,6 @@ a.btn-prime {
 .home_banner{
     position: relative;
 }
-
 .flexslider{
     height: 446px;
     border:none;
@@ -1142,7 +1141,38 @@ a.btn-prime {
 .flex-control-nav.flex-control-paging {
     display: none;
 }
-
+.flex-direction-nav a{
+    background: url(/system/site_images/photos/000/000/098/original/bg_direction_nav.png?1365699774) no-repeat scroll 0 0 transparent;
+    height: 50px;
+}
+#slider-direction-nav{
+    position: absolute;
+    left: 0;
+    top: 47%;
+    width: 100%;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -ms-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+    opacity: 0.2;
+    font-size:2em;
+    font-family: HelveticaNBdCn;
+}
+#slider-direction-nav a {
+    float: left;
+    display: block;
+    width: 26px;
+    height: 37px;
+}
+#slider-direction-nav .lean-slider-next {
+    float: right;
+}
+.feature_links {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+/* *** FASHION PAGE *** */
 .fashion_flexslider {
     height: auto;
     border:none;
@@ -1161,42 +1191,10 @@ a.btn-prime {
 .fashion_flexslider .flex-control-nav {
     bottom: 0;
 }
-
-.flex-direction-nav a{
-    background: url(/system/site_images/photos/000/000/098/original/bg_direction_nav.png?1365699774) no-repeat scroll 0 0 transparent;
-    height: 50px;
+.addthis_native_toolbox {
+    display: inline-flex;
+    padding-top: 35px;
 }
-
-#slider-direction-nav{
-    position: absolute;
-    left: 0;
-    top: 47%;
-    width: 100%;
-    -webkit-transition: opacity 0.2s linear;
-    -moz-transition: opacity 0.2s linear;
-    -ms-transition: opacity 0.2s linear;
-    -o-transition: opacity 0.2s linear;
-    transition: opacity 0.2s linear;
-    opacity: 0.2;
-    font-size:2em;
-    font-family: HelveticaNBdCn;
-}
-
-#slider-direction-nav a {
-    float: left;
-    display: block;
-    width: 26px;
-    height: 37px;
-}
-#slider-direction-nav .lean-slider-next {
-    float: right;
-}
-
-.feature_links {
-    margin-left: -15px;
-    margin-right: -15px;
-}
-
 @media (max-width: 800px) {
 }
 
