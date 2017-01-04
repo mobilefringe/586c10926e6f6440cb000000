@@ -521,7 +521,6 @@ function renderStoreDetails(container, template, collection, slug){
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
-
 function renderStoreListCatetories(container, template, category_list,stores){
     var item_rendered = [];
     var template_html = $(template).html();
@@ -555,7 +554,6 @@ function renderStoreListCatetories(container, template, category_list,stores){
     });
     $(container).html(item_rendered.join(''));
 }
-
 function renderPosts(container, template, collection){
     var item_list = [];
     var item_rendered = [];
@@ -576,7 +574,6 @@ function renderPosts(container, template, collection){
     });
     $(container).html(item_rendered.join(''));
 }
-
 function renderPostDetails(container, template, collection){
     var item_list = [];
     var item_rendered = [];
