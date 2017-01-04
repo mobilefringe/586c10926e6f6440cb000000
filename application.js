@@ -32,15 +32,15 @@ function init() {
     window._fbq = window._fbq || [];
     window._fbq.push(['track', 'PixelInitialized', {}]);
     
-    $(".long_feature_box").hover(function() {
-        $(this).find(".long_feature_label").animate({
-            "top": "-=81%"
-        }, 500)
-    }, function() {
-        $(this).find(".long_feature_label").animate({
-            "top": "+=81%"
-        }, 500)
-    });
+    // $(".long_feature_box").hover(function() {
+    //     $(this).find(".long_feature_label").animate({
+    //         "top": "-=81%"
+    //     }, 500)
+    // }, function() {
+    //     $(this).find(".long_feature_label").animate({
+    //         "top": "+=81%"
+    //     }, 500)
+    // });
     
     //Campaign Monitor Sign Up
     $('#subForm').submit(function (e) {
