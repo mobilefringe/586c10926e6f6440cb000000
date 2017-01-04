@@ -2511,7 +2511,7 @@ display: block;
   font-family: Merriweather-regular;
 }
 
-#site_nav ul.dropdown-menu li {
+#site_nav ul.dropdown-menu {
   border-radius: 0;
   background-color: white;
   top: 43px;
