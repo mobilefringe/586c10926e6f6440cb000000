@@ -162,7 +162,7 @@
 
             region = {};
             var stores = getStoresList();
-            $.each(stores, function(key, val) {
+            // $.each(stores, function(key, val) {
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     obj = {};
                     obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p></div>"
@@ -170,22 +170,8 @@
                     obj["attr"]["href"] = "/stores/" + val.slug
                     region[val.svgmap_region] = obj
                 }
-            });
+            // });
             load_map(region, store_details);
-            drop_pin(map, region);
-            
-    //         var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
-    // 		$('.demo1').craftmap({
-    //             image: {
-    //     			width: 840,
-    // 				height: 700,
-    // 				name: 'imgMap'
-    // 			},
-    // 			map: {
-    // 				position: dimension
-    // 			}
-    // 		});
-    //       	$("#scroll_to_marker").click();
         }
         
         function load_map(reg, store_details){
