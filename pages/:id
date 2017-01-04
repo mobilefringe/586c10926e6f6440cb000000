@@ -28,7 +28,7 @@
                     $("#contact_us").show();
                 }
                 if(slug === "quinte-military-discount-program") {
-                    $('.page_body h2').css("padding-bottom:" "0");
+                    $('.page_body h2').css({"padding-bottom:" "0"});
                 }
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
