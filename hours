@@ -36,7 +36,6 @@
             
             if(hours.is_holiday = false) {
                 $('#holiday_hours').hide();
-                   
             } else {
                 renderHours('#holiday_hours_container','#holiday_hours_template', hours, 'holiday_hours');     
             }
