@@ -1367,7 +1367,7 @@ hr{
     // color: #a6a6a6;
     font-size: 16px;
 }
-p.tooltip_phone {
+.tooltip_phone {
     display: inline-block;
 }
 .tooltip_details {
