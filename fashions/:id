@@ -1,4 +1,4 @@
-<div class="flexslider trim_screen">
+<div class="fashion_flexslider trim_screen">
     <ul class="slides" id="fashion_banner">            
         <script id="fashion_banner_template" type="x-tmpl-mustache/text">
             <li>
@@ -14,7 +14,10 @@
             var fashion = getFashionBySlug('quinte-lookbook').fashion_images;
             console.log(fashion);
             renderFashion("#fashion_banner", "#fashion_banner_template", fashion);
-
+            
+            $('.fashion_flexslider').flexslider({
+                animation: "slide",
+            });
             
         }
         loadMallDataCached(renderAll); 
