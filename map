@@ -27,5 +27,3 @@
         loadMallDataCached(renderAll);
     })
 </script>
-
-"<img class='tooltip_img' src='{{file.file_url}}'><img class='tooltip_img' src='{{store.store_front_url}}'/><label class='store_name_map'>" + val.name + "</label><div class='map_contact'><div class='map_contact_section'><img class='map_contact_phone_icon' src='{{2027 | get_image_url}}'><label class='map_contact_label'>" + val.phone + "</label><label class='map_label_right'>CLICK FOR MORE DETAILs</label></div></div>"
