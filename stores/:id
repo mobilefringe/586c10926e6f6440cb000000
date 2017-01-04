@@ -161,16 +161,13 @@
             }
 
             region = {};
-            var stores = getStoresList();
-            // $.each(stores, function(key, val) {
-                if(store_details.svgmap_region != null && typeof(store_details.svgmap_region)  != 'undefined'){
-                    obj = {};
-                    obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + store_details.name + "</p></div>"
-                    obj["attr"] = {}
-                    obj["attr"]["href"] = "/stores/" + store_details.slug
-                    region[store_details.svgmap_region] = obj
-                }
-            // });
+            if(store_details.svgmap_region != null && typeof(store_details.svgmap_region)  != 'undefined'){
+                obj = {};
+                obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + store_details.name + "</p></div>"
+                obj["attr"] = {}
+                obj["attr"]["href"] = "/stores/" + store_details.slug
+                region[store_details.svgmap_region] = obj
+            }
             load_map(region, store_details);
         }
         
