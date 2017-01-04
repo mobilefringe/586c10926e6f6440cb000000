@@ -1134,12 +1134,15 @@ a.btn-prime {
     box-shadow: none;
     overflow: hidden;
 }
-
 .flexslider .slides img { 
     // width: auto;
     // max-width: 100%;
     // height: 446px;
 }
+.flex-control-nav.flex-control-paging {
+    display: none;
+}
+
 .fashion_flexslider {
     height: auto;
     border:none;
@@ -1152,9 +1155,10 @@ a.btn-prime {
     max-width: 100%;
     height: auto;
 }
-.flex-control-nav.flex-control-paging {
-    display: none;
+.fashion_flexslider .flex-control-nav.flex-control-paging {
+    display: initial;
 }
+
 
 .flex-direction-nav a{
     background: url(/system/site_images/photos/000/000/098/original/bg_direction_nav.png?1365699774) no-repeat scroll 0 0 transparent;
