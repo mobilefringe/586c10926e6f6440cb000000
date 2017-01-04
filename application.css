@@ -1132,12 +1132,13 @@ a.btn-prime {
     border:none;
     border-radius:0px;
     box-shadow: none;
+    overflow: hidden;
 }
 
 .flexslider .slides img { 
-    width: auto;
-    max-width: 100%;
-    height: 446px;
+    // width: auto;
+    // max-width: 100%;
+    // height: 446px;
 }
 
 .flex-control-nav.flex-control-paging {
