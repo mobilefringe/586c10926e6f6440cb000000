@@ -2520,6 +2520,9 @@ display: block;
   border-radius: 5px;
   font-family: Merriweather-regular;
 }
+#site_nav ul.dropdown-menu li {
+    font-family: inherit;
+}
 .accordion-heading h2.job_title{
     padding-top:10px;
     color:black;
