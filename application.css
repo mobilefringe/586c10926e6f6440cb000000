@@ -1536,6 +1536,9 @@ td.stores_pin{
 // }
 .page_body td {
     padding-bottom: 20px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
 }
 /********* simply-scroll-list *********/
 .simply-scroll{
