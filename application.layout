@@ -170,8 +170,16 @@
                     <li>                        
                         <button class="btn-nav" onclick="window.location.href='/events'">EVENTS</button>
                     </li>
-                    <li>                        
-                        <button class="btn-nav" onclick="window.location.href='/pages/tecumseh-customer-service'">GUEST SERVICES</button>
+                    <li class="dropdown">                        
+                        <button class="btn-nav" data-toggle="dropdown">GUEST SERVICES</button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="nav_a" href='/pages/quinte-guest-services' target='_self'><span>Guest Services</span></a>                                
+                            </li>
+                            <li>
+                                <a class="nav_a" href='/pages/quinte-gift-cards' target='_self'><span>Gift Cards</span></a>                                
+                            </li>    
+                        </ul>
                     </li>            
                     <li>                        
                         <button class="btn-nav" onclick="window.location.href='/jobs'">CAREERS</button>
