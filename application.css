@@ -1195,6 +1195,11 @@ a.btn-prime {
     display: inline-flex;
     padding-top: 35px;
 }
+.addthis_native_toolbox p {
+    font-size: 16pt;
+    padding-right: 10px;
+    display: inline-block;
+}
 @media (max-width: 800px) {
 }
 
