@@ -1768,7 +1768,8 @@ td.stores_pin{
     }
     .hour_box{
         width: 65%;
-        height: 227px;
+        // height: 227px;
+        height: auto;
     }
     .hour_box .check_hours {
         padding: 0;
