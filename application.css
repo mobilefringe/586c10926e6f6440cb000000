@@ -1740,6 +1740,9 @@ td.stores_pin{
     .nav_container hr {
         width: 95%;
     }
+    #site_nav {
+        height: 90px;
+    }
     #site_nav ul {
         top: 0;
         right: 20px;
