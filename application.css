@@ -1101,7 +1101,6 @@ a.btn-prime {
 .check_hours{
     font-size:1.5em;
     font-size:1.2em\9;    
-    // color: #4d413e;
     display: block;
     padding: 5px 0 0 10px;
 }
@@ -1745,16 +1744,13 @@ td.stores_pin{
         top: 0;
         right: 20px;
     }
-    
     #site_nav li button{
         padding: 3px 10px;
     }
-    
     .container_body{
         min-height: 100%;
         max-width:100%;    
     }
-    
     .right_box{
         position: relative;
         right: 0px;
@@ -1762,24 +1758,17 @@ td.stores_pin{
         float: right;
         margin-top: 10px;    
     }
-    
     .hour_box{
         width: 65%;
         height: 227px;
     }
-    
-    // .hour_box .feature_label {
-    //     padding: 17px 2% 0;
-    // }
     .hour_box .check_hours {
         padding: 0;
         padding-left: 10px;
     }
-    
     .hour_box p{
         font-size: 2.1em;
     }
-    
     .right_feature_box {
         margin-top: 0px;
         position: absolute;
@@ -1787,7 +1776,6 @@ td.stores_pin{
         right: 15px;
         width: 30%;
     }
-    
     .feature_boxes{
         width: 70%;
     }
@@ -1799,11 +1787,9 @@ td.stores_pin{
         margin-right: -20px;
         height: auto;
     }
-    
     .flexslider .slides img {
         height: auto;
     }
-    
     .long_feature_box{
         float: none;
         width: 100%;
@@ -1891,12 +1877,6 @@ td.stores_pin{
     }
     .hour_box .hour_info {
         height: auto;
-    }
-    // .hour_info a {
-    //     color: #808080;
-    // }
-    a.check_hours {
-        color: #000;
     }
     .hour_box p{
         margin: 10px 0 0;
@@ -2199,6 +2179,9 @@ li {
 
 .hour_box div {
   padding: 40px 0 37px;
+}
+.check_hours {
+    color: #000;
 }
 body{
     background: white;    
