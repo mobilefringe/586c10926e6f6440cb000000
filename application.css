@@ -1791,7 +1791,8 @@ td.stores_pin{
         height: auto;
     }
     .fashion_flexslider {
-        height: 620px;
+        height: auto;
+        padding-bottom: 30px;
     }
     .long_feature_box{
         float: none;
@@ -1917,7 +1918,7 @@ td.stores_pin{
         margin-right: 0;
     }
     .fashion_flexslider {
-        height: 350px;
+        height: auto;
     }
     #lightbox {
         margin: 0 auto;
