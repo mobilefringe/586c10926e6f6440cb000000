@@ -2097,14 +2097,14 @@ li {
   position: absolute;
   bottom: -4px;
 }
-#mobile_logo {
- position: absolute;
- top: 0px;
- left: 10px;
- z-index: 999;
- width: 140px;
- margin-top: 10px;
-}
+// #mobile_logo {
+//  position: absolute;
+//  top: 0px;
+//  left: 10px;
+//  z-index: 999;
+//  width: 140px;
+//  margin-top: 10px;
+// }
 
 // #site_nav ul {
 //   position: absolute;
