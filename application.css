@@ -1880,7 +1880,8 @@ td.stores_pin{
     .mobile_logo {
         position: absolute;
         left: 10px;
-        max-width: 75%;
+        // max-width: 75%;
+        width: 120px;
     }
     .feature_links {
         margin-left: 0;
