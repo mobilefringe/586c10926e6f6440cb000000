@@ -281,9 +281,10 @@ legend{
 .nav_container{
     padding-bottom: 3px;    
 }
-#site_nav{
+#site_nav {
     position: relative;
-    height: 85px;
+    // height: 85px;
+    height: 140px;
 }
 #site_nav ul li ul li a:hover {
     color: black;
@@ -2090,7 +2091,7 @@ li {
 
 #site_nav {
 //  position: relative;
-//  height: 140px;
+ height: 140px;
 //  padding-bottom: 40px;
 }
 
