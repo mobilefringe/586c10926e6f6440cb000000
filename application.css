@@ -2183,6 +2183,9 @@ li {
 .check_hours {
     color: #000;
 }
+.check_hours:hover {
+    color: #000;
+}
 body{
     background: white;    
     font-family: Merriweather-Regular, Helvetica, sans-serif;
