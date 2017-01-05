@@ -1253,7 +1253,8 @@ hr{
     hr { height:3px; }
 }
 
-.store_btn{
+.store_btn {
+    margin-right:1%;
     border-radius: 3px;
     font-family:futura_medium_light,futura_medium_light_ie;
     text-transform:uppercase;
@@ -1267,8 +1268,8 @@ hr{
     font-size:1.5em;
     line-height:2.25em;
 }
-.store_btn:first-child{
-    margin-right:1%;
+.store_btn:last-child,{
+    margin-right: 0;
 }
 .store_btn a:link{
     color: white;
