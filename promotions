@@ -54,7 +54,7 @@
     $(document).ready(function(){
         function renderAll(){
             init();
-            var promotions = getPromotionsList().sortBy(function(o){ return o.created_at});
+            var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
             var mall_published_promos = [];
             var store_published_promos = [];
             console.log(promotions);
