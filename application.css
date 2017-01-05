@@ -1749,7 +1749,7 @@ td.stores_pin{
         height: 90px;
     }
     #site_nav ul {
-        top: 55px;
+        top: 55 px;
         right: 20px;
     }
     #site_nav li button{
@@ -1799,6 +1799,8 @@ td.stores_pin{
         height: auto;
     }
     .fashion_flexslider {
+        margin-left: -20px;
+        margin-right: -20px;
         height: auto;
         padding-bottom: 5%;
     }
