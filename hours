@@ -10,7 +10,7 @@
         </script>
     </div>
 	<div class="line_break"></div>
-	<div id="holiday_hours">
+	<div id="holiday_hours" class="hidden_now">
         <h1 class="page_title">Holiday Hours</h1>
         <hr>
         <div class="hour_table" id="holiday_hours_container">
@@ -36,7 +36,7 @@
             renderHours('#holiday_hours_container','#holiday_hours_template', hours, 'holiday_hours');
             
             if(hours.length < 6) {
-                $('#holiday_hours').hide();    
+                $('#holiday_hours').show();    
             }
         }
         loadMallDataCached(renderAll); 
