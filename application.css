@@ -1916,6 +1916,9 @@ td.stores_pin{
         margin-left: 0;
         margin-right: 0;
     }
+    .fashion_flexslider {
+        height: 350px;
+    }
     #lightbox {
         margin: 0 auto;
         max-width: 90%;
