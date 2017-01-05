@@ -57,6 +57,7 @@
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date});
             var mall_published_promos = [];
             var store_published_promos = [];
+            console.log(promotions);
             $.each(promotions, function(key, val){
                 if(val.promotionable_type == "Property"){
                     today = moment();
