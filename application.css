@@ -1549,6 +1549,7 @@ td.stores_pin{
 }
 
 .page_body ul li {
+    padding-bottom: 5px;
     font-size: 11pt;
     font-weight: normal;
 }
