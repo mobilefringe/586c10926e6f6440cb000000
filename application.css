@@ -1749,7 +1749,7 @@ td.stores_pin{
         height: 90px;
     }
     #site_nav ul {
-        top: 50px;
+        top: 55px;
         right: 20px;
     }
     #site_nav li button{
@@ -2093,7 +2093,7 @@ li {
 #site_nav ul.dropdown-menu {
   border-radius: 0;
   background-color: white;
-  top: -25px !important;
+  top: -20px !important;
 }
 
 #site_nav {
