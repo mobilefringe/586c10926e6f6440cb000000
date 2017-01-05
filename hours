@@ -33,7 +33,7 @@
             var hours = getPropertyHours();
             console.log(hours);
             renderHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours');
-            if(hours.length < 7) {
+            if(hours.length < 6) {
                 renderHours('#holiday_hours_container','#holiday_hours_template', hours, 'holiday_hours');    
             } else {
                 $('#holiday_hours').hide();
