@@ -1744,7 +1744,7 @@ td.stores_pin{
         height: 90px;
     }
     #site_nav ul {
-        top: 0;
+        top: 50px;
         right: 20px;
     }
     #site_nav li button{
