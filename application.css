@@ -1790,6 +1790,9 @@ td.stores_pin{
     .flexslider .slides img {
         height: auto;
     }
+    .fashion_flexslider {
+        height: 620px;
+    }
     .long_feature_box{
         float: none;
         width: 100%;
