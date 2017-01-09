@@ -1933,13 +1933,13 @@ td.stores_pin{
     .accordion-heading {
         height: auto;
     }
-    .flexslider {
+    .flexslider, .fashion_flexslider {
         margin-left: 0;
         margin-right: 0;
     }
-    // .fashion_flexslider {
-    //     height: auto;
-    // }
+    .fashion_flexslider {
+        height: auto;
+    }
     #lightbox {
         margin: 0 auto;
         max-width: 90%;
