@@ -1197,6 +1197,7 @@ a.btn-prime {
     display: inline-block;
 }
 .at4-show {
+    padding-top: 5px;
     display: inline-block;
 }
 @media (max-width: 800px) {
