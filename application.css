@@ -1181,9 +1181,9 @@ a.btn-prime {
     max-width: 100%;
     height: auto;
 }
-.fashion_flexslider .flex-control-nav.flex-control-paging {
-    display: initial;
-}
+// .fashion_flexslider .flex-control-nav.flex-control-paging {
+//     display: initial;
+// }
 .fashion_flexslider .flex-control-nav {
     bottom: 0;
 }
