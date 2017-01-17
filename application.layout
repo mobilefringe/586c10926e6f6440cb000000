@@ -293,11 +293,13 @@
                                 </script>
                             </div>
                             <div class="home_hours_info">
-                                <span class="hour_title">Call</span>
-                                <span class="hour_info hidden-xs">613-968-3571</span>
-                                <span class="hour_info visible-xs-inline-block">
-                                    <a href="tel:306-525-1301">613-968-3571</a>    
-                                </span>
+                                <script id="home_hours_template" type="x-tmpl-mustache/text">
+                                    <span class="hour_title">Call</span>
+                                    <span class="hour_info hidden-xs">{{contact_phone}}</span>
+                                    <span class="hour_info visible-xs-inline-block">
+                                        <a href="tel:306-525-1301">613-968-3571</a>    
+                                    </span>
+                                </script>
                             </div>
                             <a href="/hours" class="check_hours">Check Holiday Hours</a>
                         </div>
