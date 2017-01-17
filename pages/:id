@@ -22,8 +22,10 @@
     $(document).ready(function(){
         function renderAll(){
             init();
+            
             var prop_details = getPropertyDetails();
             renderPropertyDetails('#map_container', '#map_template', prop_details);
+            
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var pages_json = "//www.quintemall.com/pages/" + slug + ".json"
