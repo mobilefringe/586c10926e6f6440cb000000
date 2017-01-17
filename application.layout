@@ -292,8 +292,8 @@
                                     {%endraw%}
                                 </script>
                             </div>
-                            <div class="home_hours_info">
-                                <script id="home_hours_template" type="x-tmpl-mustache/text">
+                            <div class="home_hours_info" id="prop_phone_container">
+                                <script id="prop_phone_template" type="x-tmpl-mustache/text">
                                     {%raw%}
                                     <span class="hour_title">Call</span>
                                     <span class="hour_info hidden-xs">{{contact_phone}}</span>
