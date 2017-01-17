@@ -27,7 +27,8 @@ function init() {
     });  
 
     renderHomeHours();
-    
+    var prop_details = getPropertyDetails();
+    renderPropertyDetails('#', '#', prop_details)
     var feature_items = getFeatureList();
     var one_item = feature_items.slice(0,1);
     renderFeatureItems('#feature_item','#feature_item_template', one_item);
