@@ -1,3 +1,32 @@
+<div class="popup_home hidden_now">
+    <img src="#" alt="pop up" />
+    <div class="homepop_up_container">
+            <div class="pop_up_form_container">
+                <div class="pop_up_form">
+                    <h4 class="popup_header1"></h4>
+                    <form method="post" action ="http://mobilefringe.createsend.com/t/d/s/idjdui/"  onsubmit="return validate_pop_up()">
+                        <label for="name_pop_up">Name</label>
+                        <input id="name_pop_up" type="text" name=cm-name>
+                        
+                        <label for="email_pop_up">Email</label>
+                        <input id="email_pop_up" type="text" name=cm-idjdui-idjdui>
+                        
+                        <label for="postal_pop_up" >Postal Code</label>
+                        <input id="postal_pop_up" type="text" name=cm-f-tyquu>
+                        
+                        <label>
+                            <input id="subscribe_newsletter_popup" type="checkbox">
+                            Subscribe to receive newsletters from Quinte Mall
+                        </label>
+                        <br/> 
+                        <input class="btn btn-success" value = "Submit" type="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    <i class="fa fa-remove close_popup"></i>
+</div>
+
 <div class="flexslider trim_screen">
     <ul class="slides" id="home_banner">            
         <script id="home_banner_template" type="x-tmpl-mustache/text">
@@ -22,6 +51,64 @@
             $('.flexslider').flexslider({
                 animation: "slide",
             });
+            
+            // *** POP UP *** //
+            var window_width = $( window ).width();
+            if (window_width > 769) {
+                if($.cookie("popup_viewed") != "true"){
+                    $.cookie("popup_viewed", "true", { expires: 1 });
+                    var popup = getPopups()[0];
+                    if (popup != undefined){
+                        $('.popup_home a').attr('href', popup.photo_link)
+                        $('.popup_home img').attr('src', '//mallmaverick.cdn.speedyrails.net' + popup.photo_url)
+                        $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
+                        $('.popup_home').show()
+                    }
+                }
+            }
+            
+            $('.close_popup, .custom_backdrop').click(function(){
+                $(".modal-backdrop").remove();
+    	        $(".popup_home").remove();
+            })
+                
+            $(".popup_close").click(function(){
+                $(".popup_bg").fadeOut();
+            });
+            
+            $(".btn-success").click(function(){    
+                subscribe_email_popup();
+            });
+    
+            function validate_pop_up(){
+                if($('#subscribe_newsletter_popup').is(":checked"))
+                return true;
+                else{
+                    alert("Please check the 'Subscribe to recieve newsletter' checkbox")
+                    return false;
+                }
+            }
+            
+            function subscribe_email_popup(){ 
+                if (isValidEmailAddress($("#subscribe_email_popup").val())){   
+                    var action="http://mobilefringe.createsend.com/t/d/s/ykblt/"
+                    var data = {}
+                    data["cm-ykblt-ykblt"] = $("#subscribe_email_popup").val();
+                    data["cm-name"] = $("#subscribe_first_name").val() + " " + $("#subscribe_last_name").val();
+                    $.getJSON(
+                        action + "?callback=?",
+                        data,
+                        function (data) {
+                            if (data.Status === 400) {
+                                alert("Veuillez essayer de nouveau s’il vous plaît.");
+                            } else { // 200
+                                $("#success_subscribe_popup").fadeIn();
+                            }
+                    });    
+                } else {
+                    alert("Veuillez entrez un courriel valide.")
+                }
+            }
         }
         loadMallData(renderAll);
     })
