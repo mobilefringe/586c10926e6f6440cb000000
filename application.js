@@ -613,7 +613,7 @@ function renderPosts(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
         if (val.image_url.indexOf('missing.png') > -1) {
-            val.image_url = "//www.mallmaverick.com/system/sites/logo_images/000/000/023/original/mall_logo.png?1381508700";
+            val.image_url = "//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/jpeg/1495128383000/quinte_default.jpg";
         } else {
             val.image_url = val.image_url;
         }
