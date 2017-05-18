@@ -343,7 +343,7 @@ function renderEvents(container, template, collection){
         }
         else {
             val.store_name = "Tecumseh Mall";
-            // val.image_url = val.event_image_url_abs;
+            val.image_url = val.event_image_url_abs;
         }
         
         
