@@ -342,7 +342,7 @@ function renderEvents(container, template, collection){
             val.event_image_url = store_details.store_front_url_abs;
         }
         else {
-            val.store_name = "Tecumseh Mall";
+            val.store_name = "Quinte Mall";
             val.image_url = val.event_image_url_abs;
         }
         
