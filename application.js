@@ -344,6 +344,8 @@ function renderEvents(container, template, collection){
         else {
             val.store_name = "Tecumseh Mall";
             val.image_url = val.event_image_url_abs;
+            if(val.event_image_url_abs.indexOf('missing.png') < 0){
+                val.image_url = "//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/jpeg/1495128383000/quinte_default.jpg";
         }
         
         
@@ -434,7 +436,7 @@ function renderPromotions(container, template, collection){
             // val.image_url = "";
         }
         if(val.promo_image_url_abs.indexOf('missing.png') > 0){
-            // val.promo_image_url_abs  = "//www.mallmaverick.com/system/sites/logo_images/000/000/028/original/aberdeen.jpg?1393004108";
+            val.promo_image_url_abs  = "//www.mallmaverick.com/system/sites/logo_images/000/000/028/original/aberdeen.jpg?1393004108";
         }
         
         var show_date = moment(val.show_on_web_date);
