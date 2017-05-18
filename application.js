@@ -617,7 +617,9 @@ function renderPosts(container, template, collection){
         } else {
             val.image_url = val.image_url;
         }
-
+        
+        val.author = "Quinte Mall";
+        
         var published_on = moment(val.publish_date).tz(getPropertyTimeZone());
         val.publish_date = published_on.format("MMMM Do, YYYY");
         
