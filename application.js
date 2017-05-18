@@ -346,9 +346,9 @@ function renderEvents(container, template, collection){
             val.image_url = val.event_image_url_abs;
         }
         
-        if(val.image_url.indexOf('missing.png') < 0){
-            val.image_url = "//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/jpeg/1495128383000/quinte_default.jpg";
-        }
+        // if(val.image_url.indexOf('missing.png') < 0){
+        //     val.image_url = "//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/jpeg/1495128383000/quinte_default.jpg";
+        // }
         
         // else{
         //     if(val.image_url.indexOf('missing.png') < 0){
