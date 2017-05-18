@@ -384,7 +384,7 @@ function renderEventDetails(container, template, collection){
         }
         else{
             val.store_name = "Quinte Mall";
-            val.image_url = "";
+            val.image_url = "//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/jpeg/1495128383000/quinte_default.jpg";
         }
         
         if(val.event_image_url_abs.indexOf('missing.png') > -1){
