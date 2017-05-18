@@ -384,12 +384,15 @@ function renderEventDetails(container, template, collection){
         }
         else{
             val.store_name = "Quinte Mall";
-            val.image_url = "//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/jpeg/1495128383000/quinte_default.jpg";
+            val.image_url = val.event_image_url_abs;
+            if(val.image_url.indexOf('missing.png') > 0){
+                val.image_url = "//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/jpeg/1495128383000/quinte_default.jpg";
+            }
         }
         
-        if(val.event_image_url_abs.indexOf('missing.png') > -1){
-            val.promo_image_show="display:none";
-        }
+        // if(val.event_image_url_abs.indexOf('missing.png') > -1){
+        //     val.promo_image_show="display:none";
+        // }
         
         var show_date = moment(val.show_on_web_date);
         var start = moment(val.start_date).tz(getPropertyTimeZone());
