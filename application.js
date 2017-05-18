@@ -59,13 +59,13 @@ function init() {
                 if (data.Status === 400) {
                     alert("Please try again later.");
                 } else { // 200
-                    $('#popupForm').trigger('reset');
-                    $("#success").fadeIn();
+                    // $('#popupForm').trigger('reset');
+                    // $("#success").fadeIn();
                     
-                    setTimeout(function(){ 
-                        $(".modal-backdrop").remove();
-	                    $(".popup_home").remove();
-                    }, 2000);
+                    // setTimeout(function(){ 
+                    //     $(".modal-backdrop").remove();
+	                   // $(".popup_home").remove();
+                    // }, 2000);
                 }
         });
     });
