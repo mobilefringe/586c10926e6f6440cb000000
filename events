@@ -7,7 +7,7 @@
             <div class="row store_promo">
                 <div class="col-sm-3">
                     <a  href="{{event_image_url_abs}}" data-lightbox="{{name}}">
-                        <img src="{{event_image_url}}">
+                        <img src="{{image_url}}">
                     </a>
                 </div>
                 <div class="col-sm-9">
@@ -28,6 +28,7 @@
         function renderAll(){
             init();
             var events = getEventsList().sortBy(function(o){ return o.start_date });
+            console.log(events);
             var prop = getPropertyDetails();
             var published_events = [];
             $.each(events, function(key, val){
