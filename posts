@@ -19,8 +19,8 @@
         function renderAll(){
             init();
             var blog = getBlogDataBySlug("quinte-get-the-look");
-            console.log(blog);
             var posts = blog.posts.sortBy(function(o){ return moment(o.publish_date) }).reverse();
+                        console.log(posts);
             
             renderPosts('#blog_container', '#blog_template', posts);
         }
