@@ -16,7 +16,7 @@
                     
                     <label>
                         <label for="agree"></label>
-                        <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Quinte Mall
+                        <input type="checkbox" class="info_check" id="agree" /> I agree to receive newsletters from Quinte Mall
                     </label>
                     <br/> 
                     <button class="btn btn-success"/>Subscribe</button>                      
