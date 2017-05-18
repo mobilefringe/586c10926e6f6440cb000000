@@ -13,7 +13,6 @@
         function renderAll(){
             init();
             var stores = getStoresList();
-            console.log(stores);
             
             regions = {};
             var stores = getStoresList();
