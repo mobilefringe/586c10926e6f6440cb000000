@@ -343,12 +343,13 @@ function renderEvents(container, template, collection){
         }
         else {
             val.store_name = "Tecumseh Mall";
-            val.image_url = val.event_image_url_abs;
+            // val.image_url = val.event_image_url_abs;
         }
         
-        // if(val.image_url.indexOf('missing.png') < 0){
-        //     val.image_url = "//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/jpeg/1495128383000/quinte_default.jpg";
-        // }
+        val.image_url = val.event_image_url_abs;
+        if(val.image_url.indexOf('missing.png') < 0){
+            val.image_url = "//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/jpeg/1495128383000/quinte_default.jpg";
+        }
         
         // else{
         //     if(val.image_url.indexOf('missing.png') < 0){
