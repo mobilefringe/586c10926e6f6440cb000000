@@ -15,13 +15,13 @@
                     <input id="postal_pop_up" type="text" name=cm-f-tyquu>
                     
                     <label>
-                        <label for="agree_terms"></label>
+                        <label for="agree"></label>
                         <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Quinte Mall
                     </label>
                     <br/> 
                     <button class="btn btn-success"/>Subscribe</button>                      
                     <br/></br/>
-                    <span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
+                    <span id="success">Thank you for subscribing to our newsletter.</span>
                 </form>
             </div>
         </div>
