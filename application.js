@@ -59,6 +59,7 @@ function init() {
                 if (data.Status === 400) {
                     alert("Please try again later.");
                 } else { // 200
+                    window.location = "/pages/quinte-thank-you--2"
                     // $('#popupForm').trigger('reset');
                     // $("#success").fadeIn();
                     
