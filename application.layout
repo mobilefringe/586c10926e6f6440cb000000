@@ -372,8 +372,7 @@
                             <input id="fieldEmail" name=cm-idjdui-idjdui type="email" required placeholder="Your Email" />  
                             <span>
                                 <label style="display:none" for="agree_terms">Subscribe</label>
-                                    <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Quinte Mall
-                                
+                                <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Quinte Mall
                             </span>
             				<br />						
                             <button class="btn"/>Subscribe</button>                      
