@@ -62,7 +62,7 @@
                     var popup = getPopups()[0];
                     console.log(popup);
                     if (popup != undefined){
-                        if (popup.use_form != true) {
+                        if (popup.use_form != false) {
                             console.log(popup_use_form);
                             $('.homepop_up_container').hide();
                         }
