@@ -63,6 +63,7 @@
                     console.log(popup);
                     if (popup != undefined){
                         if (popup.use_form != true) {
+                            console.log(popup_use_form);
                             $('.homepop_up_container').hide();
                         }
                         $('.popup_home a').attr('href', popup.photo_link)
