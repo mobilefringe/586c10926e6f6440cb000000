@@ -107,9 +107,8 @@
             init();
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
-            console.log(store_details);
             var store_details = getStoreDetailsBySlug(slug);
-            
+            console.log(store_details);
             renderStoreDetails("#store_details_container","#store_details_template", store_details, slug);
             renderStoreDetails("#map_container","#map_template", store_details, slug);
             
