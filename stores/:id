@@ -24,7 +24,7 @@
                     <a href="tel:{{phone}}" class="store_btn  visible-xs-inline-block visible-sm-inline-block">{{phone}}</a> 
                     {{/phone}}
                     {{#website}}
-                    <a href="https://{{website}}" class="store_btn" target="_blank">Website</a>    
+                    <a href="//{{website}}" class="store_btn" target="_blank">Website</a>    
                     {{/website}}
                 </div>
                 <div class="store_desc"><p>{{{rich_description}}}</p></div>
