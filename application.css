@@ -203,8 +203,9 @@ a:hover {
 }
 /* *** */
 
-
-
+.yield {
+    visibility: hidden;
+}
 
 .header {
     background-color: white;
