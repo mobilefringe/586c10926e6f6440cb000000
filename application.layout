@@ -394,16 +394,16 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-6 col-md-4">
-                    <div class="hidden-xs special_box">
-                        <label for="twitter_id">               
-                            <i class="fa fa-twitter social_icon" aria-hidden="true"></i>
-                            TWITTER                
-                        </label>
-                        <a class="twitter-timeline" data-height="372" href="https://twitter.com/quintemall">Tweets by QuinteMall</a> 
-                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
-                </div>
+                <!--<div class="col-sm-6 col-md-4">-->
+                <!--    <div class="hidden-xs special_box">-->
+                <!--        <label for="twitter_id">               -->
+                <!--            <i class="fa fa-twitter social_icon" aria-hidden="true"></i>-->
+                <!--            TWITTER                -->
+                <!--        </label>-->
+                <!--        <a class="twitter-timeline" data-height="372" href="https://twitter.com/quintemall">Tweets by QuinteMall</a> -->
+                <!--        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+                <!--    </div>-->
+                <!--</div>-->
         		<div class="col-sm-12 col-md-4">   
         		    <div class="mobile_line_break"></div>
                     <div class="nav_site_map hidden-xs">
