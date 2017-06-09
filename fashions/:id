@@ -14,16 +14,20 @@
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5150b79556552030"></script>
 <script>
-    $(document).ready(function(){
-        function renderAll(){
-            init();
-            var fashion = getFashionBySlug('quinte-lookbook').fashion_images;
-            renderFashion("#fashion_banner", "#fashion_banner_template", fashion);
-            
-            $('.fashion_flexslider').flexslider({
-                animation: "slide",
-            });
-        }
-        loadMallDataCached(renderAll); 
-    })
+$(document).ready(function(e){
+    init(e);
+    function renderAll(){
+        var fashion = getFashionBySlug('quinte-lookbook').fashion_images;
+        renderFashion("#fashion_banner", "#fashion_banner_template", fashion);
+        
+        setTimeout(function() {
+            show_content();
+        }, 500);
+    
+        $('.fashion_flexslider').flexslider({
+            animation: "slide",
+        });
+    }
+    loadMallDataCached(renderAll); 
+})
 </script>
