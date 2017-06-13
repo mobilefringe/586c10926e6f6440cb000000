@@ -277,10 +277,7 @@ a:hover {
     right:30px;
 }
 
-
-
-.content_area{
-    background-image:url(BACKGROUND_IMAGE);
+.content_area {
     background-color: #D6D6D6;
 }
 
@@ -568,19 +565,6 @@ legend{
     -webkit-column-count: 2;
 }
 
-// .bottom_nav .nav_site_map .nav_site_map_link{
-//     overflow: auto\9;
-//     column-count: 2;
-//     text-align: justify;
-//     -moz-column-count: 2;
-//     -moz-column-gap: 1.5em;
-//     -moz-column-rule: none;
-//     -webkit-column-count: 2;
-//     -webkit-column-gap: 1.5em;
-//     -webkit-column-rule: none;
-//     padding-bottom: 15px;
-// }
-
 .nav_site_map_link{
     height: 210px;
 }
@@ -850,13 +834,6 @@ ul.store_tabs li.active a:hover {
 a.btn-nav {
     color:white;    
 }
-.btn-nav:hover,.btn-nav:focus,.btn-nav:active  {
-    background-image:url(PRIMARY_NAV_SELECTED_IMAGE);
-}
-
-.btn-nav a span {
-    
-}
 
 #centre_logo {
     float: left;
@@ -888,10 +865,6 @@ a.btn-prime {
   margin-bottom: 10px;
 }
 
-.nav-bar{
-   background-image:url(PRIMARY_NAV_IMAGE);
-}
-
 .alphabet_bg{
     background-color:white;
     border-bottom: 2px solid #000000;
@@ -905,13 +878,11 @@ a.btn-prime {
 }
 
 .btn-prime:hover,.btn-prime:focus,.btn-prime:active,.btn-secondary:hover,.btn-secondary:focus,.btn-secondary:active  {
-	background-color:white;
-    background-image:url(PRIMARY_NAV_SELECTED_IMAGE);
+	background-color: white;
 }
 
 .btn-secondary {
     background-color: transparent;
-    // background-image:url("//www.mallmaverick.com/primary_nav_images/original/missing.png");
     color: #000;
     font-family: inherit;
     margin: 2px;
@@ -926,7 +897,6 @@ a.btn-prime {
 
 .btn-social {
   color:#616161;
-  background-image:url(SECONDARY_BUTTON_IMAGE);
    -moz-box-shadow: -1px 1px 2px 0px #1D1D1D;
   -webkit-box-shadow: -1px 1px 2px 0px #1D1D1D;
    box-shadow: -1px 1px 2px 0px #1D1D1D;
@@ -934,14 +904,12 @@ a.btn-prime {
 
 .btn-social:hover {
   color:#616161;
-  background-image:url(SECONDARY_BUTTON_SELECTED_IMAGE);
 }
 
 
 
 .btn-3{
   color:#616161;
-  background-image:url(SECONDARY_BUTTON_IMAGE); 
    -moz-box-shadow: -1px 1px 2px 0px #1D1D1D;
   -webkit-box-shadow: -1px 1px 2px 0px #1D1D1D;
    box-shadow: -1px 1px 2px 0px #1D1D1D; 
@@ -949,7 +917,6 @@ a.btn-prime {
 
 .btn-3:hover{
   color:#616161;
-  background-image:url(SECONDARY_BUTTON_SELECTED_IMAGE);  
 }
 
 .caret{
@@ -1241,7 +1208,6 @@ a.btn-prime {
 //     display: none;
 // }
 .flex-direction-nav a{
-    background: url(/system/site_images/photos/000/000/098/original/bg_direction_nav.png?1365699774) no-repeat scroll 0 0 transparent;
     height: 50px;
 }
 #slider-direction-nav{
@@ -1534,7 +1500,7 @@ hr{
     height: 65px;
     text-indent: -9999px;
     outline: none;
-    background:url("//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/png/1495131572000/map_marker.png") no-repeat;
+    background: url(//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/png/1495131572000/map_marker.png) no-repeat;
     cursor: pointer;
 }
 .popup {
@@ -1571,10 +1537,10 @@ hr{
     border-radius: 0;
     margin: 5px;
     height: auto;
-    background: url(/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994) no-repeat scroll 95% 40% / 14px 10px white;
+    background: url(//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/png/1497038985000/arrow_down.png) no-repeat scroll 95% 40% / 14px 10px white;
 }
 .controls a:hover{
-    background: url(/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994) no-repeat scroll 95% 40% / 14px 10px white;
+    background: url(//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/png/1497038985000/arrow_down.png) no-repeat scroll 95% 40% / 14px 10px white;
 }
 .mapper {
     margin-top: 32px;
