@@ -11,10 +11,10 @@
                     </a>
                     {{name}} 
                     <a href="#promo" class="pull-right" id="promo">
-                        <img src="//www.mallmaverick.com/system/site_images/photos/000/000/771/original/btn_promo.png?1381264332" />
+                        <img src="//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/png/1497038419000/btn_promo.png" />
                     </a>
                     <a href="#job" class="pull-right" id="job">
-                        <img src="//www.mallmaverick.com/system/site_images/photos/000/000/770/original/btn_job.png?1381264320" />
+                        <img src="//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/png/1497369916000/btn_job.png" />
                     </a> 
                 </h1>
                 <hr>
