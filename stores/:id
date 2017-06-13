@@ -10,10 +10,10 @@
                         <img src="//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/png/1497369767000/back_btn.png" />
                     </a>
                     {{name}} 
-                    <a href="#promo" class="pull-right" id="promo">
+                    <a href="#promo" class="pull-right" id="promo_show">
                         <img src="//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/png/1497038419000/btn_promo.png" />
                     </a>
-                    <a href="#job" class="pull-right" id="job">
+                    <a href="#job" class="pull-right" id="job_show">
                         <img src="//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/png/1497369916000/btn_job.png" />
                     </a> 
                 </h1>
@@ -123,6 +123,7 @@ $(document).ready(function(e){
         });
         if( published_promos.length > 0){
             renderPromotions("#promos_container","#promos_template", published_promos);
+            $('#promo_show').show();
             $('#promotions').show();
         }
         
