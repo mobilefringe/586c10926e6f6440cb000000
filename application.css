@@ -2254,49 +2254,49 @@ li {
 }
 @font-face {
     font-family: Merriweather-Regular;
-    src: url(http://cdn.mallmaverick.com/system/site_images/photos/000/010/674/original/Nexa_Light.otf?1437403339);
+    src: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/010/674/original/Nexa_Light.otf?1437403339);
 }
 
 @font-face {
     font-family: Merriweather-Regular;
-    src: url(http://cdn.mallmaverick.com/system/site_images/photos/000/010/673/original/Nexa_Bold.otf?1437403339);
+    src: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/010/673/original/Nexa_Bold.otf?1437403339);
     font-weight:bold;
 }
 
 @font-face {
     font-family: Merriweather-Bold;
-    src: url(http://cdn.mallmaverick.com/system/site_images/photos/000/010/673/original/Nexa_Bold.otf?1437403339);
+    src: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/010/673/original/Nexa_Bold.otf?1437403339);
     font-weight:bold;
 }
 
 @font-face {
     font-family: Merriweather-BoldItalic;
-    src: url(http://cdn.mallmaverick.com/system/site_images/photos/000/010/222/original/Merriweather-BoldItalic.ttf?1435159706);
+    src: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/010/222/original/Merriweather-BoldItalic.ttf?1435159706);
 }
 
 @font-face {
     font-family: Merriweather-Italic;
-    src: url(http://cdn.mallmaverick.com/system/site_images/photos/000/010/223/original/Merriweather-Italic.ttf?1435159706);
+    src: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/010/223/original/Merriweather-Italic.ttf?1435159706);
 }
 
 @font-face {
     font-family: Merriweather-HeavyItalic;
-    src: url(http://cdn.mallmaverick.com/system/site_images/photos/000/010/224/original/Merriweather-HeavyItalic.ttf?1435159706);
+    src: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/010/224/original/Merriweather-HeavyItalic.ttf?1435159706);
 }
 
 @font-face {
     font-family: Merriweather-Light;
-    src: url(http://cdn.mallmaverick.com/system/site_images/photos/000/010/225/original/Merriweather-Light.ttf?1435159706);
+    src: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/010/225/original/Merriweather-Light.ttf?1435159706);
 }
 
 @font-face {
     font-family: Merriweather-Black;
-    src: url(http://cdn.mallmaverick.com/system/site_images/photos/000/010/226/original/Merriweather-Black.ttf?1435159706);
+    src: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/010/226/original/Merriweather-Black.ttf?1435159706);
 }
 
 @font-face {
     font-family: Merriweather-LightItalic;
-    src: url(http://cdn.mallmaverick.com/system/site_images/photos/000/010/227/original/Merriweather-LightItalic.ttf?1435159706);
+    src: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/010/227/original/Merriweather-LightItalic.ttf?1435159706);
 }
 .store_promo h2 {
   padding-bottom: 5px;
