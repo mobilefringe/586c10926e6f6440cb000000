@@ -90,6 +90,9 @@
                         <li class="mobile_menu_item">
                             <a href='/pages/quinte-gift-cards'>Gift Cards</a>
                         </li>
+                         <li class="mobile_menu_item">
+                            <a href='/pages/quinte-wifi'>Wi-Fi</a>
+                        </li>
                         <li class="mobile_menu_header" >
                             <a href='/jobs' >CAREERS</a>
                         </li>         
@@ -198,7 +201,10 @@
                             </li>
                             <li>
                                 <a class="nav_a" href='/pages/quinte-gift-cards' target='_self'><span>Gift Cards</span></a>
-                            </li>    
+                            </li>   
+                             <li>
+                                <a class="nav_a" href='/pages/quinte-wifi' target='_self'><span>Wi-Fi</span></a>
+                            </li>  
                         </ul>
                     </li>            
                     <li>                        
@@ -406,6 +412,8 @@
                                 <a class="site_map_submenu" href='/pages/quinte-guest-services' target='_self'>Guest Services</a>
                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                                 <a class="site_map_submenu" href='/pages/quinte-gift-cards' target='_self'>Gift Cards</a>
+                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                <a class="site_map_submenu" href='/pages/quinte-wifi' target='_self'>Wi-Fi</a>
                             </div>
                             <div class="nav_sitemap_item">
                                 <span class="site_map_title">
