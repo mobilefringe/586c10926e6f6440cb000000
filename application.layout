@@ -62,9 +62,7 @@
                         <li class="mobile_menu_item">
                             <a href='/map'>Shopping Map</a>
                         </li>
-                        <li class="mobile_menu_item">
-                            <a href='/fashions/qunite-lookbook'>Lookbook</a>
-                        </li>
+                        
                         <li class="mobile_menu_header" >
                             <a>PROMOTIONS</a>
                         </li>
@@ -167,9 +165,7 @@
                             <li>
                                 <a class="nav_a" href='/map' target='_self'><span>Shopping Map</span></a>                                
                             </li>
-                            <li>
-                                <a class="nav_a" href='/fashions/quinte-lookbook' target='_self'><span>Lookbook</span></a>                                
-                            </li>
+                           
                         </ul>
                     </li>               
                     <li class="dropdown">                        
@@ -388,7 +384,7 @@
                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                                 <a class="site_map_submenu" href='/map' target='_self'>Shopping Map</a>
                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/fashions/quinte-lookbook' target='_self'>Lookbook</a>
+                               
                             </div>
                             <div class="nav_sitemap_item">
                                 <span class="site_map_title">PROMOTIONS</span>      
