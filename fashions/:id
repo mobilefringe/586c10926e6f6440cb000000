@@ -17,8 +17,7 @@
 $(document).ready(function(e){
     init(e);
     function renderAll(){
-        var fashion = getFashionBySlug('quinte-lookbook');
-        console.log(fashion)
+        var fashion = getFashionBySlug('quinte-lookbook').fashion_images;
         renderFashion("#fashion_banner", "#fashion_banner_template", fashion);
         
         setTimeout(function() {
