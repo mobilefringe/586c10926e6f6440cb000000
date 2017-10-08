@@ -403,7 +403,14 @@ function renderStoreList(container, template, collection, type){
         }
 
         var current_initial = val.name[0];
-        val.cat_list = val.categories.join(',')
+        try {
+          val.cat_list = val.categories.join(',')
+        }
+        catch (e) {
+          console.log("Store categories error " + e.message);
+          val.cat_list = ""
+        }
+        
         if(store_initial.toLowerCase() == current_initial.toLowerCase()){
             val.initial = "";
             val.show = "display:none;";
