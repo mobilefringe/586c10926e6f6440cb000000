@@ -470,6 +470,7 @@ function renderStoreDetails(container, template, collection, slug){
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
+
 function renderStoreListCatetories(container, template, category_list,stores){
     var item_rendered = [];
     var template_html = $(template).html();
