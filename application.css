@@ -1413,9 +1413,6 @@ hr{
     // width:72%;
     word-wrap: break-word;
 }
-.promo_info img {
-    max-width: 100%;
-}
 
 .promo_info a {
     color: inherit;
@@ -1427,6 +1424,11 @@ hr{
 }
 #promo_details_container img,
 #event_details_container img {
+    max-width: 100%;
+}
+
+#promo_details_container p img,
+#event_details_container p img {
     max-width: 100%;
 }
 /************** lightbox *************/
