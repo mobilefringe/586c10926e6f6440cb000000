@@ -1427,8 +1427,7 @@ hr{
     max-width: 100%;
 }
 
-#promo_details_container p img,
-#event_details_container p img {
+.promo_info img {
     max-width: 100%;
 }
 /************** lightbox *************/
