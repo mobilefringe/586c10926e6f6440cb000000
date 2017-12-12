@@ -472,7 +472,7 @@
         </div>
         <div class="footer trim_screen">
             <span>
-                &copy; <span id="current_year"></span> Quinte Mall | <a href="/pages/quinte-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
+                &copy; <span id="current_year" style="padding:0"></span> Quinte Mall | <a href="/pages/quinte-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
             </span>
             <a href="http://www.cushmanwakefield.ca/en/" target="_blank">
                 <!--<img ALT="20vic_logo" src="//codecloud.cdn.speedyrails.net/sites/586c10926e6f6440cb000000/image/png/1495132160000/20vic_logo.png" />-->
