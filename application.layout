@@ -137,7 +137,8 @@
                         </li>
                     </ul>
                     <a id="mobile_logo" href="/">
-                        <img class="mobile_logo" ALT="mobile_logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/103/original/QuinteMall_Logo.png?1437158680"/>
+                        <div class="main_logo_svg"></div>
+                        <!--<img class="mobile_logo" ALT="mobile_logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/103/original/QuinteMall_Logo.png?1437158680"/>-->
                     </a>
                 </div>
                 <!-- iphone header END --> 
