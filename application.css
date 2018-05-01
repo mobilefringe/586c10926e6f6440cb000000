@@ -848,7 +848,15 @@ a.btn-nav {
 #centre_logo img {
     max-width: 95%;
 }
-
+.main_logo_svg {
+    margin-top: 12px;
+    display: inline-block;
+    width: 110px;
+    height: 90px;
+    background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/039/137/original/qm-logo-web.svg?1525201429);
+    background-size: 110px 90px;
+    background-repeat: no-repeat;
+}
 .line_break{
     clear:both;
     height: 30px;
