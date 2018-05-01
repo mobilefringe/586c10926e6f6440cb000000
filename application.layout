@@ -165,7 +165,8 @@
         <div class="hidden-xs row-fluid">
 	  	    <div class="trim_screen nav_container" id="site_nav">              
                 <a id="centre_logo" href="/">
-                    <img ALT="centre_logo" src="//www.mallmaverick.com/system/sites/logo_images/000/000/103/original/QuinteMall_Logo.png?1437158680"/>
+                    <div class="main_logo_svg"></div>
+                    <!--<img ALT="centre_logo" src="//www.mallmaverick.com/system/sites/logo_images/000/000/103/original/QuinteMall_Logo.png?1437158680"/>-->
                 </a>
                 <ul>                  
                     <li class="dropdown ">
