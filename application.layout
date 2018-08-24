@@ -349,10 +349,10 @@
                             <p>Subscribe to our newsletter and get exclusive deals you won't find anywhere else straight to your inbox!</p>
                             <label for="fieldEmail" style="display:none"> subscribe email </label>
                             <input id="fieldEmail" name=cm-idjdui-idjdui type="email" required placeholder="Your Email" />  
-                            <span>
+                            <p>
                                 <label style="display:none" for="agree_terms">Subscribe</label>
                                 <input type="checkbox" required class="info_check" id="agree_terms" /> I agree to receive newsletters from Quinte Mall
-                            </span>
+                            </p>
             				<br />						
                             <button class="btn">Subscribe</button>                      
                             <br />
