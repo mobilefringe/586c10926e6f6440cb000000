@@ -471,8 +471,8 @@ legend{
 
 .bottom_nav span {
     color: black;
-    font-size:1.5em;
-    line-height:1.5em;
+    font-size: 1.5em;
+    line-height: 1.5em;
     font-family: futura_condensed;
 }
 .bottom_nav label img{
@@ -2395,7 +2395,7 @@ h3 {
     text-align: left;
     padding: 3px 0 3px 23px;
 }
-.bottom_nav label{
+.bottom_nav span {
     color: black;
     font-size:1.1em;
     line-height:1.9em;
