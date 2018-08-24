@@ -503,6 +503,7 @@ legend{
     display: block;
     color: gray;
     font-size: 0.8em;
+    line-height: 16pt;
 }
 
 .newsletter_box #fieldEmail {
