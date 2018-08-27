@@ -136,6 +136,7 @@
                     </li>
                 </ul>
                 <a id="mobile_logo" href="/">
+                    <p style="display: none">Home</p>
                     <div class="main_logo_svg"></div>
                 </a>
             </div>
@@ -163,6 +164,7 @@
         <div class="hidden-xs row-fluid">
 	  	    <nav class="trim_screen nav_container" id="site_nav">              
                 <a id="centre_logo" href="/">
+                    <p style="display: none">Home</p>
                     <div class="main_logo_svg"></div>
                 </a>
                 <ul>                  
