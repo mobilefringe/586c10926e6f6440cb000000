@@ -2443,11 +2443,11 @@ h3 {
   font-size:1.2em;
 }
 .promo_date {
-  color: #F00;
-font-family: Merriweather-Bold;
-font-size: 14pt;
-padding-bottom: 20px;
-display: block;
+  color: #E70000;
+    font-family: Merriweather-Bold;
+    font-size: 14pt;
+    padding-bottom: 20px;
+    display: block;
 }
 
 .accordion-group h2 {
