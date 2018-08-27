@@ -1,0 +1,33 @@
+<div class="fashion_flexslider trim_screen">
+    <ul class="slides" id="fashion_banner">            
+        <script id="fashion_banner_template" type="x-tmpl-mustache/text">
+            <li>
+                <img src="//www.mallmaverick.com{{photo_url}}" alt="{{name}}"/>
+            </li>
+        </script>                
+    </ul>        
+</div>
+<div class="body_content">
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <div class="addthis_native_toolbox"><p>Share this lookbook</p></div>
+</div>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5150b79556552030"></script>
+<script>
+$(document).ready(function(e){
+    init(e);
+    function renderAll(){
+        var fashion = getFashionBySlug('quinte-lookbook').fashion_images;
+        renderFashion("#fashion_banner", "#fashion_banner_template", fashion);
+        
+        setTimeout(function() {
+            show_content();
+        }, 500);
+    
+        $('.fashion_flexslider').flexslider({
+            animation: "slide",
+        });
+    }
+    loadMallDataCached(renderAll); 
+})
+</script>
