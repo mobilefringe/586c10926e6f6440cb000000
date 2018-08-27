@@ -1,7 +1,9 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 <div class="contest_page">
-    // <div class="" id="contest_container">
-    //     <script id="contest_template" type="x-tmpl-mustache/text">
+    <!-- 
+    <div class="" id="contest_container">
+         <script id="contest_template" type="x-tmpl-mustache/text">
+    -->
             <img src="{{alt_photo_url}}" class="details_image"/>
             <div class="contest_description">{{{rich_description}}}</div>
             <hr>
@@ -71,8 +73,10 @@
                     </div>
                 </div>
             </form>
-    <!--    </script>-->
-    <!--</div>-->
+            <!-- 
+        </script>
+    </div>
+    -->
 </div>
 
 <script>
