@@ -501,7 +501,7 @@ legend{
     font-weight: lighter;
     padding: 5px 0px 10px;
     display: block;
-    color: gray;
+    color: #64676c;
     font-size: 0.8em;
     line-height: 16pt;
 }
@@ -585,8 +585,9 @@ legend{
 }
 .bottom_nav .nav_site_map .site_map_title{
     font-weight: bolder;
-    display:block;
+    display: block;
     text-align: left;
+    color: #64676c;
 }
 .bottom_nav .nav_site_map .site_map_submenu{
     font-family: futura_light, futura_light_ie;
