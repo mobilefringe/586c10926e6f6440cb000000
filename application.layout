@@ -260,6 +260,7 @@
     <div class="trim_screen">
         <div class=" main_content row-fluid yield">
             <div class="col-md-9">
+                <h1 style="display: none">Qunite Mall</h1>
                 {{yield}}
             </div>
     
