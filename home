@@ -8,8 +8,8 @@
                     <label for="name_pop_up">Name</label>
                     <input id="name_pop_up" type="text" name=cm-name>
                     
-                    <label for="popupEmail">Email*</label>
-                    <input id="popupEmail" name=cm-idjdui-idjdui type="email" required/>  
+                    <label for="email_pop_up">Email*</label>
+                    <input id="email_pop_up" name=cm-idjdui-idjdui type="email" required/>  
                     
                     <label for="postal_pop_up" >Postal Code</label>
                     <input id="postal_pop_up" type="text" name=cm-f-tyquu>
