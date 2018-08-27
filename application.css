@@ -51,6 +51,9 @@ a:hover {
     // color: inherit;
 }
 
+.margin_20 {
+    margin-bottom: 20px;
+}
 /* *** LOADER *** */
 .loader_backdrop{
     padding-top: 10%;
@@ -2443,7 +2446,7 @@ h3 {
   font-size:1.2em;
 }
 .promo_date {
-  color: #E70000;
+    color: #E70000;
     font-family: Merriweather-Bold;
     font-size: 14pt;
     padding-bottom: 20px;
