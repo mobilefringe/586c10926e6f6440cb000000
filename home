@@ -14,9 +14,10 @@
                     <label for="postal_pop_up" >Postal Code</label>
                     <input id="postal_pop_up" type="text" name=cm-f-tyquu>
                     
+                    <label for="agree">
+                        <input type="checkbox" class="info_check" id="agree" /> I agree to receive newsletters from Quinte Mall    
+                    </label>
                     
-                    <label for="agree"></label>
-                    <input type="checkbox" class="info_check" id="agree" /> I agree to receive newsletters from Quinte Mall
                     <br/> 
                     <button class="btn btn-success">Subscribe</button>                      
                     <br><br>
