@@ -79,10 +79,10 @@
 $(document).ready(function(e){
     init(e);
     function renderAll(){
-        var pathArray = window.location.pathname.split( '/' );
-        var slug = pathArray[pathArray.length-1];
-        contest_details = getContestBySlug(slug);
-        renderContest("#contest_container", '#contest_template', contest_details)
+        // var pathArray = window.location.pathname.split( '/' );
+        // var slug = pathArray[pathArray.length-1];
+        // contest_details = getContestBySlug(slug);
+        // renderContest("#contest_container", '#contest_template', contest_details)
         
         setTimeout(function() {
             show_content();
