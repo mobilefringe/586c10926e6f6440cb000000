@@ -119,7 +119,6 @@
 </div>
 <div class="line_break"></div>
 <script>
-<script>
 $(document).ready(function(){
     init();
     function renderAll (){
