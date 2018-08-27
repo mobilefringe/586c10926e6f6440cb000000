@@ -2,6 +2,9 @@
     td {
         width: 50%;
     }
+    img {
+        max-width: 100%;
+    }
     #error_msg {
         text-align: center;
     }
