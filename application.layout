@@ -130,7 +130,7 @@
                         <a href='/pages/quinte-accessibility'>Accessibility</a>
                     </li>        
                     <li class="mobile_menu_item">
-                        <a href='/pages/quinte-thinking-green'>Thinking Green</a>
+                        <a href='/pages/quinte-thinking-green'>Act Green Initiatives</a>
                     </li>
                     <li class="mobile_menu_item">
                       <a href='/pages/quinte-contact-us'>Contact Us</a>
@@ -244,7 +244,7 @@
                                 <a class="nav_a" href='/pages/quinte-accessibility' target='_self'><span>Accessibility</span></a> 
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/quinte-thinking-green' target='_self'><span>Thinking Green</span></a> 
+                                <a class="nav_a" href='/pages/quinte-thinking-green' target='_self'><span>Act Green Initiatives</span></a> 
                             </li>
                             <li>
                                 <a class="nav_a" href='/pages/quinte-contact-us' target='_self'><span>Contact Us</span></a> 
@@ -422,7 +422,7 @@
                                 <a class="site_map_submenu" href='/hours' target='_self'>Shopping Hours</a>
                                 <a class="site_map_submenu" href='/pages/quite-tourism' target='_self'>Tourism</a>
                                 <a class="site_map_submenu" href='/pages/quinte-accessibility' target='_self'>Accessibility</a>
-                                <a class="site_map_submenu" href='/pages/quinte-thinking-green' target='_self'>Thinking Green</a>
+                                <a class="site_map_submenu" href='/pages/quinte-thinking-green' target='_self'>Act Green Initiatives</a>
                                 <a class="site_map_submenu" href='/pages/quinte-contact-us' target='_self'>Contact Us</a>
                             </div>
                         </div>
